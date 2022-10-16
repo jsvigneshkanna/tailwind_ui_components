@@ -1,6 +1,10 @@
 name: Bug Issue Template
 description: File a Bug Issue Report
 title: "[Bug]: "
+labels: [
+  "hacktoberfest",
+  "hacktoberfest-accepted"
+]
 body:
   - type: input
     id: bug-title
