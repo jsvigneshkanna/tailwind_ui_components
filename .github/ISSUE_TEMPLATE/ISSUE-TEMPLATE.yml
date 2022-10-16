@@ -46,4 +46,4 @@ body:
       label: Are you taking this issue fix
       placeholder: Yes/ No
     validations:
-      required: false
+      required: true
