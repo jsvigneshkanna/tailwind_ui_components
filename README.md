@@ -17,3 +17,13 @@ Buy us coffee or tea or even a book at [buymeacoffee 🍵](https://www.buymeacof
 
 # Contributors 🎉
 These people are sole backbone for this software
+
+<a href="https://github.com/jsvigneshkanna/tailwind_ui_components/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jsvigneshkanna/tailwind_ui_components" />
+</a>
+
+<br>
+<div align="center">
+Show some ❤️ by starring this awesome repository!
+</div>
+
