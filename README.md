@@ -9,7 +9,7 @@ free resources to learn or play with these utility based classes.
 If you are searching for an answer for above question/ rant, then this website is best suitable for you all. Here we can get almost all layouts and components built under Tailwind CSS, and the best part is we can play around with them in inbuilt code editor and copy the codebase too for your projects.
 
 # Like to contribute to us by code/ design?
-Please follow the contributing guide for this repo. Anything that is not followed will not be entertained as contribution.
+Please follow the [contributing guide](./CONTRIBUTING.md) for this repo. Anything that is not followed will not be entertained as contribution.
 
 # Like to contribute us by money?
 This contribution is not forced but welcomed, as this will help us run this software for long time
@@ -17,3 +17,13 @@ Buy us coffee or tea or even a book at [buymeacoffee 🍵](https://www.buymeacof
 
 # Contributors 🎉
 These people are sole backbone for this software
+
+<a href="https://github.com/jsvigneshkanna/tailwind_ui_components/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jsvigneshkanna/tailwind_ui_components" />
+</a>
+
+<br>
+<div align="center">
+Show some ❤️ by starring this awesome repository!
+</div>
+
