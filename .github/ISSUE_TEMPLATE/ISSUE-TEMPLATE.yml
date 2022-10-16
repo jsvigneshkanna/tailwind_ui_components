@@ -1,0 +1,47 @@
+name: Bug Issue Template
+description: File a Bug Issue Report
+title: "[Bug Issue]: "
+body:
+  - type: input
+    id: bug-title
+    attributes: 
+      lable: Bug Title
+      placeholder: ex. [BUG] title
+    validation: 
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of BUG
+      placeholder: Description of the BUG
+    validations:
+      required: true
+  - type: input 
+    id: url
+    attributes:
+      label: Reporduction URL of bug 
+      placeholder: URL
+    validations:
+      required: false
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Bug Issue Type
+      description: Which type of bug issue?
+      options:
+        - Frontend
+        - Backend
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot of the issue if UI
+    validations:
+      required: false
+  - type: input
+    id: taking-issue
+    attributes:
+      label: Are you taking this issue fix
+    validations:
+      required: false
