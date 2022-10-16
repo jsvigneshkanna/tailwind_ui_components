@@ -7,7 +7,7 @@ body:
     attributes: 
       lable: Bug Title
       placeholder: ex. [BUG] title
-    validation: 
+    validations: 
       required: true
   - type: textarea
     id: description
