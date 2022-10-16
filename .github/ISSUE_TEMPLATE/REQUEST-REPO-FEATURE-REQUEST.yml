@@ -3,7 +3,7 @@ description: File a Feature issue report
 title: "[Feature Issue]: "
 body:
   - type: input
-    id: feature title
+    id: feature-title
     attributes:
       label: Feature Title
       placeholder: ex. FEATURE Title
@@ -24,7 +24,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: issue type
+    id: issue-type
     attributes:
       label: Issue Type
       description: Which type of issue?
