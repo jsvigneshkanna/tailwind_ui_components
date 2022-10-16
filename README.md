@@ -13,7 +13,7 @@ Please follow the contributing guide for this repo. Anything that is not followe
 
 # Like to contribute us by money
 This contribution is not forced but welcomed, as this will help us run this software for long time
-Buy us coffee or tea or even a book
+Buy us coffee or tea or even a book at [buymeacoffee 🍵](https://www.buymeacoffee.com/jsvigneshkanna?new=1)
 
 # Contributors 🎉
 These people are sole backbone for this software
