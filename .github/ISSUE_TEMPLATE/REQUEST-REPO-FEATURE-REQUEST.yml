@@ -31,6 +31,7 @@ body:
       options:
         - Backend
         - Frontend
+        - Documentation
     validations:
       required: true
   - type: textarea
