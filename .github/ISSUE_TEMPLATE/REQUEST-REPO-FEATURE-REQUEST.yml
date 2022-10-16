@@ -1,0 +1,47 @@
+name: Feature Issue Template
+description: File a Feature issue report
+title: "[Feature Issue]: "
+body:
+  - type: input
+    id: feature title
+    attributes:
+      label: Feature Title
+      placeholder: ex. FEATURE Title
+    validations:
+      required: false
+  - type: textarea
+    id: Description
+    attributes:
+      label: Description
+      placeholder: Description of the FEATURE
+    validations:
+      required: true
+  - type: textarea
+    id: Motivation
+    attributes:
+      label: Motivation
+      placeholder: Motivation of the FEATURE
+    validations:
+      required: true
+  - type: dropdown
+    id: issue type
+    attributes:
+      label: Issue Type
+      description: Which type of issue?
+      options:
+        - Backend
+        - Frontend
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot of the feature if done ?
+    validations:
+      required: false
+  - type: input
+    id: implementaion
+    attributes:
+      label: Are you taking this fetaure implementaion
+    validations:
+      required: false
