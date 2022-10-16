@@ -9,7 +9,7 @@ free resources to learn or play with these utility based classes
 If you are searching for an answer for above question/ rant, then this website is best suitable for you all. Here we can get almost all layouts and components built under Tailwind CSS, and the best part is we can play around them in inbuilt code editor and copy the codebase too for your projects
 
 # Like to contribute us by code/ design
-Please follow the contributing guide for this repo. Anything that is not followed will not be entertained as contribution.
+Please follow the [contributing guide](./CONTRIBUTING.md) for this repo. Anything that is not followed will not be entertained as contribution.
 
 # Like to contribute us by money
 This contribution is not forced but welcomed, as this will help us run this software for long time
