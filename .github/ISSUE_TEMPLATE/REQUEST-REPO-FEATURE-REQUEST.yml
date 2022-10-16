@@ -1,6 +1,10 @@
 name: Feature Issue Template
 description: File a Feature issue report
 title: "[Feature]: "
+labels: [
+  "hacktoberfest",
+  "hacktoberfest-accepted"
+]
 body:
   - type: input
     id: feature-title
