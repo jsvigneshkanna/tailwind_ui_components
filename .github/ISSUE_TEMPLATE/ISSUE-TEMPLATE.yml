@@ -3,7 +3,7 @@ description: File a Bug Issue Report
 title: "[Bug Issue]: "
 body:
   - type: input
-    id: bug title
+    id: bug-title
     attributes: 
       lable: Bug Title
       placeholder: ex. [BUG] title
@@ -24,7 +24,7 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: issue type
+    id: issue-type
     attributes:
       label: Bug Issue Type
       description: Which type of bug issue?
@@ -40,7 +40,7 @@ body:
     validations:
       required: false
   - type: input
-    id: taking_issue
+    id: taking-issue
     attributes:
       label: Are you taking this issue fix
     validations:
