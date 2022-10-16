@@ -16,7 +16,7 @@ This contribution is not forced but welcomed, as this will help us run this soft
 Buy us coffee or tea or even a book at [buymeacoffee 🍵](https://www.buymeacoffee.com/jsvigneshkanna?new=1)
 
 # Contributors 🎉
-These people are sole backbone for this software
+These people are sole backbone for this software. Want to get place in below hall of fame? join our community
 
 <a href="https://github.com/jsvigneshkanna/tailwind_ui_components/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=jsvigneshkanna/tailwind_ui_components" />
