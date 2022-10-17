@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import Navbar from "../components/navbar";
+import Homebanner from "../components/homebanner";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
       <div className=" bg-slate-100 min-h-screen">
         <Navbar />
+        <Homebanner />
       </div>
     </div>
   );
