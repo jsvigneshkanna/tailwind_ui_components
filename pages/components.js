@@ -7,19 +7,19 @@ import {useEffect} from "react";
 import buttonCollections from "../tailwind_components/buttons/collection";
 
 const Components = () => {
-  useEffect(() => {
-    window.onload = function () {
-      if (!window.location.hash) {
-        window.location = window.location + "#loaded";
-        window.location.reload();
-      }
-    };
-    window.onclose = function () {
-      if (window.location.hash) {
-        window.location = "";
-      }
-    };
-  }, []);
+  //   useEffect(() => {
+  //     window.onload = function () {
+  //       if (!window.location.hash) {
+  //         window.location = window.location + "#loaded";
+  //         window.location.reload();
+  //       }
+  //     };
+  //     window.onclose = function () {
+  //       if (window.location.hash) {
+  //         window.location = "";
+  //       }
+  //     };
+  //   }, []);
 
   return (
     <div>
