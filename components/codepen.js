@@ -11,11 +11,11 @@ const Codepen = ({htmlText}) => {
     <div className="codepen_container">
       <PrefillEmbed
         className="codepen"
-        penTitle="My sweet demo"
+        penTitle="VKs tailwind components"
         embedHeight="500"
         themeId="1"
         editable
-        description="Renders a tailwind"
+        description="Renders a tailwind UI components"
         tags={["tailwind", "html", "tailwindcss"]}
         htmlClasses={["loading"]}
         defaultTabs={["result", "html"]}
