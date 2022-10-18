@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
         <Image src="/nav_logo.png" alt="logo" width={240} height={36} />
         <div className="right_contents">
           <div className="nav_links">
-            <Link href="/">Components</Link>
+            <Link href="/components">Components</Link>
           </div>
           <div className="nav_links">
             <Link href="/">Documentation</Link>
