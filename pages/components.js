@@ -8,12 +8,16 @@ import buttonCollections from "../tailwind_components/buttons/collection";
 
 const Components = () => {
   useEffect(() => {
-    window.onload = function () {
+    window.onloadstart = function () {
       if (!window.location.hash) {
         window.location = window.location + "#loaded";
         window.location.reload();
       }
-      //   window.location.reload();
+    };
+    window.onclose = function () {
+      if (window.location.hash) {
+        window.location = "";
+      }
     };
   }, []);
 
