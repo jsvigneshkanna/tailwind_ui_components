@@ -44,3 +44,16 @@ nav {
   background-color: rgba(137, 43, 226, 0.501);
   border-radius: 8px;
 }
+
+@media (max-width: 900px){
+  .nav_container nav{
+    flex-direction: column;
+  } 
+}
+
+@media (max-width: 900px){
+  .nav_container nav div{
+    flex-direction: column;
+    gap: 8px;
+  } 
+}
