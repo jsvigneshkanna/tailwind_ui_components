@@ -1,14 +1,7 @@
 name: Tailwind Component Feature Template
 description: File a Feature issue report
-title: "[TCF]: "
+title: "[FEATURE]: "
 body:
-  - type: input
-    id: feature-title
-    attributes:
-      label: Feature Title
-      placeholder: ex. FEATURE Title
-    validations:
-      required: true
   - type: textarea
     id: Description
     attributes:
@@ -16,14 +9,12 @@ body:
       placeholder: Description of the TAILWIND COMPONENT FEATURE
     validations:
       required: true
-    validations:
-      required: true
   - type: textarea
     id: screenshot
     attributes:
       label: Screenshot of the tailwind component
     validations:
-      required: false
+      required: true
   - type: input
     id: implementaion
     attributes:
