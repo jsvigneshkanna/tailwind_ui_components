@@ -1,31 +1,39 @@
 import Head from "next/head";
 import Navbar from "../components/navbar";
 import Codepen from "../components/codepen";
-import {useEffect, useState} from "react";
+import {useEffect} from "react";
 
-import test from "../tailwind_components/buttons/test_file.jsx";
-// const htmlText = htmlToText(test_component);
+// import test from "../tailwind_components/buttons/test_file.jsx";
+import buttonCollections from "../tailwind_components/buttons/collection";
 
 const Components = () => {
+  useEffect(() => {
+    window.onload = function () {
+      //   if (window.location.hash ==='' || window.location.hash === "#loaded") {
+      //     window.location = window.location + "#loaded";
+      //     window.location.reload();
+      //   }
+      window.location.reload();
+    };
+  }, []);
+
   return (
     <div>
       <Head>
-        <title>Tailwind Bootstrap</title>
+        <title>Tailwind UI Components</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <div className=" bg-slate-100 min-h-screen">
-        <Navbar />
-        <Codepen htmlText={test} />
-        <Codepen htmlText={test} />
-        <Codepen htmlText={test} />
-        <Codepen htmlText={test} />
-        <Codepen htmlText={test} />
-        <Codepen htmlText={test} />
-        <Codepen htmlText={test} />
-        <Codepen htmlText={test} />
-        <Codepen htmlText={test} />
+      <Navbar />
+      <div className="component_page">
+        {buttonCollections.map((button, index) => {
+          return (
+            <div key={index} className="component_container">
+              <h3 className="component_name">{button.componentName}</h3>
+              <Codepen htmlText={button.component} />
+            </div>
+          );
+        })}
       </div>
     </div>
   );

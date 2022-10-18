@@ -1,0 +1,23 @@
+.component_page {
+  width: 100%;
+  background: linear-gradient(90deg, #16123f 0%, #4538dc 100%);
+  height: max-content;
+  padding-top: 6vh;
+}
+
+.component_container {
+  padding: 0 32px;
+}
+
+.component_name {
+  color: white;
+  font-size: x-large;
+  font-weight: bolder;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 900px) {
+  .component_container {
+    padding: 0 12px;
+  }
+}
