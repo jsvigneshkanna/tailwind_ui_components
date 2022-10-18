@@ -9,11 +9,11 @@ import buttonCollections from "../tailwind_components/buttons/collection";
 const Components = () => {
   useEffect(() => {
     window.onload = function () {
-      //   if (window.location.hash ==='' || window.location.hash === "#loaded") {
-      //     window.location = window.location + "#loaded";
-      //     window.location.reload();
-      //   }
-      window.location.reload();
+      if (!window.location.hash) {
+        window.location = window.location + "#loaded";
+        window.location.reload();
+      }
+      //   window.location.reload();
     };
   }, []);
 
