@@ -13,7 +13,7 @@ const Codepen = ({htmlText}) => {
         className="codepen"
         penTitle="My sweet demo"
         embedHeight="500"
-        themeId="500"
+        themeId="1"
         editable
         description="Renders a tailwind"
         tags={["tailwind", "html", "tailwindcss"]}
