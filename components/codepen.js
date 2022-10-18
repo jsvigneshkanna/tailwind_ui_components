@@ -3,7 +3,6 @@ import {
   PrefillEmbed,
   PrefillLang,
   useCodePenEmbed,
-  stripIndent,
 } from "react-codepen-prefill-embed";
 
 const Codepen = ({htmlText}) => {
@@ -12,19 +11,17 @@ const Codepen = ({htmlText}) => {
     <PrefillEmbed
       className="codepen"
       penTitle="My sweet demo"
-      embedHeight="400"
-      themeId="319"
+      embedHeight="500"
+      themeId="1"
       editable
-      description="Renders a barebones React component"
+      description="Renders a tailwind"
       tags={["tailwind", "html", "tailwindcss"]}
-      htmlClasses={["loading", "no-js"]}
-      preview
-      defaultTabs={["result", "HTML"]}
+      htmlClasses={["loading"]}
+      defaultTabs={["result", "html"]}
       head={
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       }
-      scripts={["https://cdn.tailwindcss.com"]}
-      stylesheets={["https://cdn.tailwindcss.com"]}>
+      scripts={["https://cdn.tailwindcss.com"]}>
       <PrefillLang lang="html">{htmlText}</PrefillLang>
     </PrefillEmbed>
   );
