@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="nav_container">
       <nav>
-        <Image src="/nav_logo.png" alt="logo" width={240} height={36} />
+        <Image src="/nav_logo.png" alt="logo" width={240} height={36}  onClick={() => router.push('/')}/>
         <div className="right_contents">
           <div className="nav_links">
             <a href="/components">Components</a>
