@@ -8,7 +8,7 @@ import buttonCollections from "../tailwind_components/buttons/collection";
 
 const Components = () => {
   useEffect(() => {
-    window.onloadstart = function () {
+    window.onload = function () {
       if (!window.location.hash) {
         window.location = window.location + "#loaded";
         window.location.reload();
