@@ -42,7 +42,7 @@ const Navbar = () => {
       </nav>
         <div className={displayMenu()}>
           <div className="nav_links">
-            <Link href="/">Components</Link>
+            <a href="/">Components</a>
           </div>
           <div className="nav_links">
             <Link href="/">Documentation</Link>
