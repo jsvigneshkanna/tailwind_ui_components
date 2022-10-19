@@ -2,7 +2,7 @@
 
 # Hey 👋, Welcome to TailwindCSS UI Component Repo. This is the right place to play around with UI components build under TailwindCSS
 
-[![GitHub issues](https://img.shields.io/github/issues/aaryak-shah/git-init-FOSS?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/issues) [![GitHub forks](https://img.shields.io/github/forks/aaryak-shah/git-init-FOSS?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/network/members) [![GitHub stars](https://img.shields.io/github/stars/aaryak-shah/git-init-FOSS?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/issues) [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/network/members) [![GitHub stars](https://img.shields.io/github/stars/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/stargazers)
 
 </div>
 
