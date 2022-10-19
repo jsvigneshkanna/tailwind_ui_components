@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import {useState, useRef, useEffect} from "react";
+import {FaPrayingHands} from "react-icons/fa";
+
 const Homebanner = () => {
   return (
     <div className="banner">
@@ -10,12 +12,12 @@ const Homebanner = () => {
           <div className="what_is_ans">
             <p>
               This is one stop for frontend developers (sorry 🙏 fullstack
-              developers) who are designing and building their website in
+              developers) who are designing and building their website with
               tailwind css
             </p>
             <p>
               Here you can find all UI components and layouts build exclusively
-              in tailwind
+              in tailwind CSS
             </p>
             <p>
               Additional point, checkout components page - dont say this to your
