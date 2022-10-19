@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+/* eslint-disable @next/next/no-html-link-for-pages */
+
 import Head from "next/head";
 import Navbar from "../../components/navbar";
 import Image from "next/image";
