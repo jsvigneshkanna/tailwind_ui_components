@@ -4,6 +4,7 @@ import dropdownButton from "./rectangle_dropdown_button";
 import see_more1 from "./see_more1";
 import downloadnow from "./download_now1.jsx";
 import deleteButton from "./delete_button";
+import solidArrowButtons from "./solid_arrow_buttons";
 import cardWithButton from "./card_with_button_button1";
 import settingButton from "./rectangle_setting";
 import roundedScrollButton from "./rounded_scroll_button";
@@ -29,6 +30,7 @@ const buttonCollections = [
   {componentName: "Social Button", component: socialButton},
   {componentName: "Report Button", component: reportButton},
   {componentName: "Get Started Button", component: getStartedButton},
+  {componentName: "Solid Arrow Buttons", component: solidArrowButtons},
 ];
 
 export default buttonCollections;
