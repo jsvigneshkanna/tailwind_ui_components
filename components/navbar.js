@@ -1,3 +1,5 @@
+
+/* eslint-disable @next/next/no-html-link-for-pages */
 import Image from 'next/image';
 import Link from 'next/link';
 import {MdMenu} from 'react-icons/md'
@@ -25,7 +27,7 @@ const Navbar = () => {
         <Image src="/nav_logo.png" alt="logo" width={240} height={36} onClick={() => router.push('/')}/>
         <div className='right_contents'>
           <div className="nav_links">
-            <Link href="/">Components</Link>
+            <a href="/components">Components</a>
           </div>
           <div className="nav_links">
             <Link href="/">Documentation</Link>

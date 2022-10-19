@@ -1,0 +1,58 @@
+.banner {
+  background-color: rgb(35, 32, 71);
+  min-height: 80vh;
+  width: 100%;
+  font-family: poppins;
+  padding-top: 2%;
+}
+
+.banner_container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+  z-index: 10;
+}
+
+.left_container {
+  width: 100%;
+}
+
+.what_is {
+  font-weight: bolder;
+  color: wheat;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  padding-bottom: 24px;
+  font-size: large;
+  letter-spacing: 4px;
+}
+
+.what_is_ans {
+  color: white;
+  font-size: x-large;
+  line-height: 1.8;
+}
+
+.what_is_ans p {
+  margin-bottom: 24px;
+}
+
+.right_container {
+  width: 100%;
+}
+
+.right_container img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 900px){
+  .banner_container {
+    flex-direction: column;
+    gap: 1rem;
+  } 
+}
