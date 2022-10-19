@@ -9,6 +9,7 @@ import settingButton from "./rectangle_setting";
 import roundedScrollButton from "./rounded_scroll_button";
 import playButton from "./paly_buttons";
 import searchButton from "./search_test_icon_button1.jsx";
+import singleButton from "./single_button";
 
 const buttonCollections = [
   {componentName: "button2", component: test1},
@@ -21,6 +22,7 @@ const buttonCollections = [
   {componentName: "Rounded scroll button", component: roundedScrollButton},
   {componentName: "Play Button", component: playButton},
   {componentName: "Search Button", component: searchButton},
+  {componentName: "Single Button", component: singleButton},
 ];
 
 export default buttonCollections;
