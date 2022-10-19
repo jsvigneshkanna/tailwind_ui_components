@@ -12,18 +12,16 @@
 }
 
 nav {
-  width: 75%;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 20px 0px 20px;
 }
 
 .right_contents {
   display: flex;
-  justify-content: end;
   align-items: center;
-  gap: 72px;
+  gap: 22px;
   font-weight: bold;
   font-size: large;
   color: white;
@@ -40,4 +38,17 @@ nav {
   text-underline-position: above; */
   background-color: rgba(137, 43, 226, 0.501);
   border-radius: 8px;
+}
+@media (max-width: 640px){
+  .right_contents{
+    display: none;
+  }
+  .mobile_menu{
+    display: none;
+  }
+}
+.mobile_menu{
+  display: flex;
+  justify-content: center;
+
 }
