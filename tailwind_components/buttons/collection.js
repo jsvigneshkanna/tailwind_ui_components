@@ -30,6 +30,7 @@ const buttonCollections = [
   {componentName: "Social Button", component: socialButton},
   {componentName: "Report Button", component: reportButton},
   {componentName: "Get Started Button", component: getStartedButton},
+  {componentName: "Solid Arrow Buttons", component: solidArrowButtons},
 ];
 
 export default buttonCollections;
