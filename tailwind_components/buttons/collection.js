@@ -6,6 +6,7 @@ import deleteButton from "./delete_button";
 import cardWithButton from "./card_with_button_button1";
 import settingButton from "./rectangle_setting";
 import roundedScrollButton from "./rounded_scroll_button";
+import playButton from "./paly_buttons";
 
 const buttonCollections = [
   {componentName: "button2", component: test1},
@@ -15,6 +16,7 @@ const buttonCollections = [
   {componentName: "Download now button", component: downloadnow},
   {componentName: "Setting button", component: settingButton},
   {componentName: "Rounded scroll button", component: roundedScrollButton},
+  {componentName: "Play Button", component: playButton},
 ];
 
 export default buttonCollections;
