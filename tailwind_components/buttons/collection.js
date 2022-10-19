@@ -14,8 +14,6 @@ const buttonCollections = [
   {componentName: "Card with button", component: cardWithButton},
   {componentName: "Delete button", component: deleteButton},
   {componentName: "Download now button", component: downloadnow},
-  {componentName: "Card with button", component: cardWithButton},
-  {componentName: "Delete button", component: deleteButton},
   { componentName: "Setting button", component: settingButton },
 ];
 
