@@ -43,12 +43,17 @@ nav {
   .right_contents{
     display: none;
   }
-  .mobile_menu{
-    display: none;
+}
+
+@media (max-width: 900px) {
+  .nav_container nav {
+    flex-direction: row;
   }
 }
-.mobile_menu{
-  display: flex;
-  justify-content: center;
 
+@media (max-width: 900px) {
+  .nav_container nav div {
+    flex-direction: column;
+    gap: 8px;
+  }
 }
