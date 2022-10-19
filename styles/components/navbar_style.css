@@ -47,8 +47,7 @@ nav {
 
 @media (max-width: 900px) {
   .nav_container nav {
-    flex-direction: row;
-=
+    flex-direction: row;\
   }
 }
 
