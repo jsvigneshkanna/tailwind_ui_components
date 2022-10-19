@@ -11,6 +11,7 @@ import playButton from "./paly_buttons";
 import searchButton from "./search_test_icon_button1.jsx";
 import singleButton from "./single_button";
 import socialButton from "./solid_social_button1.jsx";
+import reportButton from "./report_button";
 
 const buttonCollections = [
   {componentName: "button2", component: test1},
@@ -25,6 +26,7 @@ const buttonCollections = [
   {componentName: "Search Button", component: searchButton},
   {componentName: "Single Button", component: singleButton},
   {componentName: "Social Button", component: socialButton},
+  {componentName: "Report Button", component: reportButton},
 ];
 
 export default buttonCollections;
