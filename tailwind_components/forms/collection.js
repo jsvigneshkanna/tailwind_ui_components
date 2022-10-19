@@ -1,5 +1,5 @@
-import test from "./test_file";
+import sliderInputForm from "./slider_input_form"
 
-const formCollections = [{componentName: "test form", component: test}];
+const formCollections = [{componentName: "Range", component: sliderInputForm}];
 
 export default formCollections;
