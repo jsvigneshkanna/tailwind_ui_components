@@ -1,4 +1,4 @@
-.component_page {
+/* .component_page {
   width: 100%;
   background: linear-gradient(90deg, #16123f 0%, #4538dc 100%);
   height: max-content;
@@ -20,4 +20,56 @@
   .component_container {
     padding: 0 12px;
   }
+} */
+
+.component_page {
+  width: 100%;
+  background: linear-gradient(90deg, #370244 0%, #09024e 100%);
+  height: max-content;
+  padding-top: 6vh;
+  color: wheat;
+}
+
+.component_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12vw;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.component_card {
+  background-color: #440155;
+  width: 420px;
+  height: 360px;
+  border-radius: 20px;
+  padding: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: grab;
+}
+
+.container_card_img {
+  width: 95%;
+  margin: 4px 50px 0px 50px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  height: 80%;
+}
+
+.component_card h2 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.component_card h2:hover {
+  font-size: 26px;
+  color: white;
 }

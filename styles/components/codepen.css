@@ -1,5 +1,30 @@
+.codepen_page {
+  width: 100%;
+  background: linear-gradient(90deg, #370244 0%, #09024e 100%);
+  height: max-content;
+  padding-top: 6vh;
+  color: wheat;
+}
+
 .codepen_container {
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.codepen_name {
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+  margin-left: 5%;
+  width: 90%;
+  border-radius: 4px;
+}
+
+.codepen_name:hover {
+  color: white;
+  background-color: #370244;
 }
 
 @media (max-width: 900px) {
