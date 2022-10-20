@@ -1,17 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Navbar from "../../components/navbar";
-import {useRouter} from "next/router";
 import Codepen from "../../components/codepen";
 // import test from "../tailwind_components/buttons/test_file.jsx";
-import buttonCollections from "../../tailwind_components/buttons/collection";
+import featureCardColletion from "../../tailwind_components/feature_cards/collection";
 
-const Buttons = () => {
-  const router = useRouter();
+const FeatureCards = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI Button Components</title>
+        <title>Tailwind UI Feature Card Components</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
         <link rel="icon" href="/favi-tailwind.png" type="image/png" />
       </Head>
@@ -19,17 +17,17 @@ const Buttons = () => {
 
       <div className="codepen_page font-poppins">
         <p className="codepen_brief">
-          Buttons, widely called CTAs in tech are backbones for engineers to
-          make user interact easily and navigate different section with a click
-          👆
+          In late 90s, we do have visiting cards to showcase our portfolio. But
+          now, we are in 20th century where 240px X 240px of div is enough for
+          showcasing our portfolio 💳
         </p>
-        {buttonCollections.map((button, index) => {
+        {featureCardColletion.map((featureCard, index) => {
           return (
             <div key={index} className="codepen_container">
               <h3 className="codepen_name">
-                {index + 1}. {button.componentName}
+                {index + 1}. {featureCard.componentName}
               </h3>
-              <Codepen htmlText={button.component} />
+              <Codepen htmlText={featureCard.component} />
             </div>
           );
         })}
@@ -37,4 +35,4 @@ const Buttons = () => {
     </div>
   );
 };
-export default Buttons;
+export default FeatureCards;

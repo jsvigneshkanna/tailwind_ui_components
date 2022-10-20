@@ -1,35 +1,30 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Navbar from "../../components/navbar";
-import {useRouter} from "next/router";
 import Codepen from "../../components/codepen";
 // import test from "../tailwind_components/buttons/test_file.jsx";
-import buttonCollections from "../../tailwind_components/buttons/collection";
+import testimonialCardsCollections from "../../tailwind_components/testimonial_cards/collection";
 
-const Buttons = () => {
-  const router = useRouter();
+const TestimonialCards = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI Button Components</title>
+        <title>Tailwind UI Components</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
         <link rel="icon" href="/favi-tailwind.png" type="image/png" />
       </Head>
       <Navbar />
-
       <div className="codepen_page font-poppins">
         <p className="codepen_brief">
-          Buttons, widely called CTAs in tech are backbones for engineers to
-          make user interact easily and navigate different section with a click
-          👆
+          Still Guessing how can you showcase your testimonials(You do have 🤪).
+          Dont worry if don&apos;t have testimonials or have no idea how to
+          design it, click this card
         </p>
-        {buttonCollections.map((button, index) => {
+        {testimonialCardsCollections.map((testimonialCard, index) => {
           return (
             <div key={index} className="codepen_container">
-              <h3 className="codepen_name">
-                {index + 1}. {button.componentName}
-              </h3>
-              <Codepen htmlText={button.component} />
+              <h3 className="codepen_name">{testimonialCard.componentName}</h3>
+              <Codepen htmlText={testimonialCard.component} />
             </div>
           );
         })}
@@ -37,4 +32,4 @@ const Buttons = () => {
     </div>
   );
 };
-export default Buttons;
+export default TestimonialCards;

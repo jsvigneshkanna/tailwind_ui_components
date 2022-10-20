@@ -1,17 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Navbar from "../../components/navbar";
-import {useRouter} from "next/router";
 import Codepen from "../../components/codepen";
 // import test from "../tailwind_components/buttons/test_file.jsx";
-import buttonCollections from "../../tailwind_components/buttons/collection";
+import contactFormsCollection from "../../tailwind_components/contact_forms/collection";
 
-const Buttons = () => {
-  const router = useRouter();
+const contactForms = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI Button Components</title>
+        <title>Tailwind UI Contact Forms</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
         <link rel="icon" href="/favi-tailwind.png" type="image/png" />
       </Head>
@@ -19,17 +17,17 @@ const Buttons = () => {
 
       <div className="codepen_page font-poppins">
         <p className="codepen_brief">
-          Buttons, widely called CTAs in tech are backbones for engineers to
-          make user interact easily and navigate different section with a click
-          👆
+          As someone in facebook posted &apos;Helps you connect and share with
+          people using contact forms&apos;, we are helping you with best
+          designed contact forms in tailwindCSS 🍽️
         </p>
-        {buttonCollections.map((button, index) => {
+        {contactFormsCollection.map((contactForm, index) => {
           return (
             <div key={index} className="codepen_container">
               <h3 className="codepen_name">
-                {index + 1}. {button.componentName}
+                {index + 1}. {contactForm.componentName}
               </h3>
-              <Codepen htmlText={button.component} />
+              <Codepen htmlText={contactForm.component} />
             </div>
           );
         })}
@@ -37,4 +35,4 @@ const Buttons = () => {
     </div>
   );
 };
-export default Buttons;
+export default contactForms;

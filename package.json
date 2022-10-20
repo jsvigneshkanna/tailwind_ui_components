@@ -11,11 +11,13 @@
   "dependencies": {
     "install-peerdeps": "^3.0.3",
     "next": "12.3.1",
+    "prettier": "^2.7.1",
     "react": "18.2.0",
     "react-codepen-prefill": "^0.3.0",
     "react-codepen-prefill-embed": "0.0.2",
     "react-dom": "18.2.0",
-    "react-icons": "^4.6.0"
+    "react-icons": "^4.6.0",
+    "react-loader-spinner": "^5.3.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
