@@ -1,6 +1,6 @@
 import {stripIndent} from "react-codepen-prefill-embed";
 
-  const amazonstorebutton = stripIndent`
+  const amazonstoreButton = stripIndent`
   <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
@@ -19,8 +19,8 @@ import {stripIndent} from "react-codepen-prefill-embed";
   <i class="fa-brands fa-amazon text-4xl"></i>
   </span>
   <a href='#'>
-  <p class='text-[13px] font-bold'>Download on the</p>
-  <p class='text-xl'>Amazon.com</p>
+  <p class='text-xs font-bold'>Download on the</p>
+  <p class='text-lg'>Amazon.com</p>
   </a>
 </button>
   </div>
@@ -31,8 +31,8 @@ import {stripIndent} from "react-codepen-prefill-embed";
   <i class="fa-brands text-white fa-amazon text-4xl"></i>
   </span>
   <a class='text-white block' href='#'>
-  <p class='text-[13px] font-bold'>Download on the</p>
-  <p class='text-xl'>Amazon.com</p>
+  <p class='text-xs font-bold'>Download on the</p>
+  <p class='text-lg'>Amazon.com</p>
   </a>
 </button>
   </div>
@@ -41,4 +41,4 @@ import {stripIndent} from "react-codepen-prefill-embed";
 </div>    
   `
 
-  export default amazonstorebutton
+  export default amazonstoreButton
