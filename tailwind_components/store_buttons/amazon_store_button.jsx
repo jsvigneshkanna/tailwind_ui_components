@@ -1,6 +1,6 @@
 import {stripIndent} from "react-codepen-prefill-embed";
 
-  const amazonstorebutton = stripIndent`
+  const amazonstoreButton = stripIndent`
   <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
@@ -41,4 +41,4 @@ import {stripIndent} from "react-codepen-prefill-embed";
 </div>    
   `
 
-  export default amazonstorebutton
+  export default amazonstoreButton
