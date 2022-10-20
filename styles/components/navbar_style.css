@@ -1,14 +1,22 @@
+/* Google font family for poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .nav_container {
-  width: 100%;
+  width: 80%;
   background: linear-gradient(
     90deg,
-    rgb(2, 72, 248) 0%,
-    hsla(217, 97%, 47%, 0.5) 30%,
-    hsla(294, 98%, 50%, 0.5) 50%,
-    rgb(226, 3, 251) 100%
+    rgb(94, 215, 226) 0%,
+    rgb(1, 126, 138) 100%
   );
-  padding: 16px 0 16px 0;
+  padding: 8px 0 8px 0;
   color: white;
+  position: fixed;
+  top: 24px;
+  left: 10%;
+  border-radius: 40px;
+  box-shadow: 4px 5px 10px 0px rgba(225, 148, 5, 0.479);
+  z-index: 100000;
+  font-family: Arial, sans-serif;
 }
 
 nav {
@@ -29,6 +37,7 @@ nav {
 
 .nav_links {
   padding: 12px;
+  font-weight: 600;
 }
 
 .nav_links:hover,
@@ -36,16 +45,29 @@ nav {
   /* text-decoration: underline;
   text-underline-offset: 8px;
   text-underline-position: above; */
-  background-color: rgba(137, 43, 226, 0.501);
-  border-radius: 8px;
+  background-color: rgba(122, 51, 188, 0.501);
+  border-radius: 40px;
 }
-@media (max-width: 640px){
-  .right_contents{
+@media (max-width: 640px) {
+  .right_contents {
     display: none;
   }
 }
 
 @media (max-width: 900px) {
+  .nav_links {
+    padding: 12px;
+    margin-bottom: 24px;
+  }
+  .nav_links:nth-child(1) {
+    margin-top: 5vh;
+  }
+  .nav_container {
+    width: 96%;
+    top: 24px;
+    left: 2%;
+    box-shadow: 2px 1px 0 2px rgba(225, 148, 5, 0.479);
+  }
   .nav_container nav {
     flex-direction: row;
   }
@@ -57,4 +79,3 @@ nav {
     gap: 8px;
   }
 }
-

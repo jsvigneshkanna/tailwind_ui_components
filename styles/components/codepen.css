@@ -1,9 +1,49 @@
+.codepen_page {
+  width: 100%;
+  background: linear-gradient(90deg, #1b0023 0%, #010130 100%);
+  height: max-content;
+  padding-top: 18vh;
+  color: snow;
+  font-family: Arial, sans-serif;
+}
+
 .codepen_container {
-  padding-bottom: 10vh;
+  padding-bottom: 3vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.codepen_brief {
+  text-align: center;
+  padding-bottom: 32px;
+  color: #0e6ddb;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.codepen_name {
+  font-size: 22px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+  margin-left: 5%;
+  width: 90%;
+  border-radius: 4px;
+}
+
+.codepen_name:hover {
+  color: rgb(249, 164, 7);
+  background-color: #370244;
 }
 
 @media (max-width: 900px) {
   .codepen_container {
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
+    width: 94%;
+  }
+  .codepen_name {
+    font-size: 18px;
+    margin-left: 3%;
+    width: 94%;
   }
 }
