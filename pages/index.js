@@ -8,11 +8,34 @@ export default function Home() {
     <>
       <Head>
         <title>Tailwind Bootstrap</title>
-        <meta name="description" content="TailwindCSS ui component bootstrap" />
+        <link rel="icon" href="/favi-tailwind.png" type='image/png' />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="title" content="Tailwind Bootstrap" />
+        <meta name="description" content="TailwindCSS ui component bootstrap" />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://tailwindcsscomponents.vercel.app/"
+        />
+        <meta property="og:title" content="Tailwind Bootstrap" />
+        <meta
+          property="og:description"
+          content="TailwindCSS ui component bootstrap"
+        />
+
+        <meta
+          property="twitter:url"
+          content="https://tailwindcsscomponents.vercel.app/"
+        />
+        <meta property="twitter:title" content="Tailwind Bootstrap" />
+        <meta
+          property="twitter:description"
+          content="TailwindCSS ui component bootstrap"
+        />
       </Head>
 
-      <div className=" bg-slate-100 w-full min-h-screen">
+      <div className=" bg-slate-100 w-full min-h-screen font-poppins">
         <Navbar />
         <Homebanner />
       </div>

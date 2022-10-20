@@ -1,6 +1,6 @@
 import {stripIndent} from "react-codepen-prefill-embed";
 
-const check_box = stripIndent`
+const Checkbox = stripIndent`
 <div className="flex justify-center mt-56 bg-slate-300 w-1/2 mx-auto p-4">
   <div>
     <div className="form-check">
@@ -30,4 +30,4 @@ const check_box = stripIndent`
   </div>
 </div>`;
 
-export default check_box;
+export default Checkbox;
