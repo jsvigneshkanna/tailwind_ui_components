@@ -16,9 +16,9 @@ const Components = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI Components</title>
+        <title>Tailwind UI Components Selections</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favi-tailwind.png" type="image/png" />
       </Head>
       <Navbar />
       {loading ? (
