@@ -1,9 +1,13 @@
+/* Google font family for poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .banner {
-  background-color: rgb(35, 32, 71);
-  min-height: 80vh;
+  background: linear-gradient(135deg, #1e0b5e 0%, #420212 50%, #4e0649 100%);
+  /* min-height: 80vh; */
   width: 100%;
-  font-family: poppins;
-  padding-top: 2%;
+  font-family: "poppins";
+  padding-top: 18vh;
+  padding-bottom: 8vh;
 }
 
 .banner_container {
@@ -22,15 +26,16 @@
 
 .what_is {
   font-weight: bolder;
-  color: wheat;
+  color: rgb(249, 164, 7);
   text-decoration: underline;
   text-underline-offset: 8px;
   padding-bottom: 24px;
-  font-size: large;
-  letter-spacing: 4px;
+  font-size: 24px;
+  letter-spacing: 6px;
 }
 
 .what_is_ans {
+  /* color: #195cab; */
   color: white;
   font-size: x-large;
   line-height: 1.8;
@@ -45,14 +50,43 @@
 }
 
 .right_container img {
-  width: 100%;
+  width: 90%;
+  height: 100%;
   display: flex;
   justify-content: center;
+  object-fit: contain;
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
+  .banner {
+    font-family: "poppins";
+    padding-top: 14vh;
+    padding-bottom: 6vh;
+  }
+  .what_is {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .what_is_ans {
+    /* color: #195cab; */
+    color: white;
+    font-size: large;
+    line-height: 1.8;
+    text-align: center;
+  }
+
   .banner_container {
     flex-direction: column;
     gap: 1rem;
-  } 
+    width: 100%;
+    padding: 16px;
+  }
+
+  .right_container img {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+  }
 }

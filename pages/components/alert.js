@@ -17,6 +17,9 @@ const Alert = () => {
       </Head>
       <Navbar />
       <div className="codepen_page">
+        <p className="codepen_brief">
+          Alerts are used in website due user actions 💭
+        </p>
         {alertCollections.map((alert, index) => {
           return (
             <div key={index} className="codepen_container">

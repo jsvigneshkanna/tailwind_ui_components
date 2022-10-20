@@ -11,16 +11,24 @@ const Buttons = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI Components</title>
+        <title>Tailwind UI Button Components</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+
       <div className="codepen_page">
+        <p className="codepen_brief">
+          Buttons, widely called CTAs in tech are backbones for engineers to
+          make user interact easily and navigate different section with a click
+          👆
+        </p>
         {buttonCollections.map((button, index) => {
           return (
             <div key={index} className="codepen_container">
-              <h3 className="codepen_name">{button.componentName}</h3>
+              <h3 className="codepen_name">
+                {index + 1}. {button.componentName}
+              </h3>
               <Codepen htmlText={button.component} />
             </div>
           );
