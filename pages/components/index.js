@@ -94,7 +94,22 @@ const Components = () => {
             <p className="component_brief">
               In late 90s, we do have visiting cards to showcase our portfolio.
               But now, we are in 20th century where 240px X 240px of div is
-              enough for showcasing our portfolio
+              enough for showcasing our portfolio 📝
+            </p>
+          </a>
+
+          <a className="component_card" href="/components/testimonial_card">
+            <p className="in_dev_ribbon">Still checking contributors 🥲</p>
+            <img
+              src="/testimonial_cards.png"
+              alt="testimonial_cards_component"
+              className="container_card_img"
+            />
+            <h2 className="component_name">Testimonial Card Components</h2>
+            <p className="component_brief">
+              Still Guessing how can you showcase your testimonials(You do have
+              🤪). Dont worry if don&apos;t have testimonials or have no idea
+              how to design it, click this card
             </p>
           </a>
         </div>
