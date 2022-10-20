@@ -1,11 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
-import {useState, useRef, useEffect} from "react";
 
 import Head from "next/head";
 import Navbar from "../../components/navbar";
 import {BallTriangle} from "react-loader-spinner";
-
+import {useState, useRef, useEffect} from "react";
 const Components = () => {
   const [loading, setloading] = useState(false);
   useEffect(() => {
