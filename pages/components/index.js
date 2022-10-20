@@ -38,7 +38,6 @@ const Components = () => {
           />
         </div>
       ) : (
-        <div>
       <div className="component_page font-poppins">
         <div className="component_container">
           <a className="component_card" href="/components/buttons">
