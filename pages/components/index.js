@@ -3,8 +3,16 @@
 
 import Head from "next/head";
 import Navbar from "../../components/navbar";
-
+import {BallTriangle} from "react-loader-spinner";
+import {useState, useRef, useEffect} from "react";
 const Components = () => {
+  const [loading, setloading] = useState(false);
+  useEffect(() => {
+    setloading(true);
+    setTimeout(() => {
+      setloading(false);
+    }, 1500);
+  }, []);
   return (
     <div>
       <Head>
@@ -13,7 +21,23 @@ const Components = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-
+      {loading ? (
+        <div
+          style={{
+            height: "100vh",
+            backgroundColor: "rgba(0,0,0,0.99",
+            display: "flex",
+            justifyContent: "center",
+          }}
+          className="component_page">
+          <BallTriangle
+            height="100"
+            width="100"
+            color="#e39a09"
+            ariaLabel="loading"
+          />
+        </div>
+      ) : (
       <div className="component_page font-poppins">
         <div className="component_container">
           <a className="component_card" href="/components/buttons">
@@ -113,7 +137,8 @@ const Components = () => {
             </p>
           </a>
         </div>
-      </div>
+</div>
+      )}
     </div>
   );
 };
