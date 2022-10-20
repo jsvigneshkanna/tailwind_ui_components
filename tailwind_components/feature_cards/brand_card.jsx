@@ -6,7 +6,7 @@ const brandCard = stripIndent`
     <a href="#">
       <img class="rounded-t-lg" src="https://www.apple.com/v/iphone/home/bk/images/meta/iphone__ky2k6x5u6vue_og.png" alt="" />
     </a>
-    <div class="p-5">
+    <div class="p-5 text-center">
       <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">At your fingertips</h5>
       </a>
