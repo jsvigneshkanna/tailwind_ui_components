@@ -17,6 +17,10 @@ const Forms = () => {
       </Head>
       <Navbar />
       <div className="codepen_page">
+        <p className="codepen_brief">
+          Forms are vital in website/ apps where these helps end users to
+          interact with the website smoothly and increase user experience 📝
+        </p>
         {formCollections.map((form, index) => {
           return (
             <div key={index} className="codepen_container">

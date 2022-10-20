@@ -17,6 +17,10 @@ const Forms = () => {
       </Head>
       <Navbar />
       <div className="codepen_page">
+        <p className="codepen_brief">
+          These components can be used in footer and contact pages to showcase
+          your social/ company cards 😎
+        </p>
         {storeButtonCollections.map((storeButton, index) => {
           return (
             <div key={index} className="codepen_container">
