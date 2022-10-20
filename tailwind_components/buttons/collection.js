@@ -27,6 +27,7 @@ const buttonCollections = [
   {componentName: "Single Button", component: singleButton},
   {componentName: "Social Button", component: socialButton},
   {componentName: "Report Button", component: reportButton},
+ 
 ];
 
 export default buttonCollections;
