@@ -83,7 +83,7 @@ const Components = () => {
             </p>
           </a>
 
-          <a className="component_card in_dev_component">
+          <a className="component_card" href="/components/feature_card">
             <p className="in_dev_ribbon">In Dev 🍻</p>
             <img
               src="/feature_card_component.png"

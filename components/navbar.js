@@ -32,7 +32,7 @@ const Navbar = () => {
         />
         <div className="right_contents">
           <div className="nav_links">
-            <a href="/components">Components</a>
+            <Link href="/components">Components</Link>
           </div>
           <div className="nav_links">
             <Link href="/">Documentation</Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
       </nav>
       <div className={displayMenu()}>
         <div className="nav_links">
-          <a href="/components">Components</a>
+          <Link href="/components">Components</Link>
         </div>
         <div className="nav_links">
           <Link href="/">Documentation</Link>
