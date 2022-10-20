@@ -1,4 +1,3 @@
-import test from "./test_file";
 import test1 from "./test1_file";
 import dropdownButton from "./rectangle_dropdown_button";
 import see_more1 from "./see_more1";
@@ -15,7 +14,7 @@ import reportButton from "./report_button";
 import getStartedButton from "./get_started_button.jsx";
 
 const buttonCollections = [
-  {componentName: "button2", component: test1},
+  {componentName: "Simple Button with above text", component: test1},
   {componentName: "drop down button", component: dropdownButton},
   {componentName: "See more button", component: see_more1},
   {componentName: "Delete button", component: deleteButton},

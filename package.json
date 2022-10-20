@@ -11,6 +11,7 @@
   "dependencies": {
     "install-peerdeps": "^3.0.3",
     "next": "12.3.1",
+    "prettier": "^2.7.1",
     "react": "18.2.0",
     "react-codepen-prefill": "^0.3.0",
     "react-codepen-prefill-embed": "0.0.2",
