@@ -9,6 +9,6 @@ const alertCollections = [
   {componentName: "Tick Alert", component: tickAlert},
   {componentName: "Report Alert", component: report_alert},
   {componentName: "Not-Allowed Alert", component: not_allowed_alert},
-  {componentName: "Alarm Alert",component: alarmAlert},
+  {componentName: "Alarm Alert", component: alarmAlert},
 ];
 export default alertCollections;
