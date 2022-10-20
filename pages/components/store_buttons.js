@@ -5,35 +5,11 @@ import {useRouter} from "next/router";
 import Codepen from "../../components/codepen";
 // import test from "../tailwind_components/buttons/test_file.jsx";
 import storeButtonCollections from "../../tailwind_components/store_buttons/collection";
-import {BallTriangle} from "react-loader-spinner";
-import {useState, useRef, useEffect} from "react";
+
 const Forms = () => {
-  const [loading, setloading] = useState(false);
-  useEffect(() => {
-    setloading(true);
-    setTimeout(() => {
-      setloading(false);
-    }, 1500);
-  }, []);
   const router = useRouter();
   return (
-    <div> {loading ? (
-      <div
-          style={{
-            height: "100vh",
-            backgroundColor: "rgba(0,0,0,0.99",
-            display: "flex",
-            justifyContent: "center",
-          }}
-          className="component_page">
-          <BallTriangle
-            height="100"
-            width="100"
-            color="#e39a09"
-            ariaLabel="loading"
-          />
-        </div>
-    ):(<div>
+    <div>
       <Head>
         <title>Tailwind UI Components</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
@@ -54,8 +30,7 @@ const Forms = () => {
           );
         })}
       </div>
-    </div>)}</div>
-    
+    </div>
   );
 };
 export default Forms;
