@@ -16,7 +16,7 @@ const Forms = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="codepen_page">
+      <div className="codepen_page font-poppins">
         <p className="codepen_brief">
           Forms are vital in website/ apps where these helps end users to
           interact with the website smoothly and increase user experience 📝

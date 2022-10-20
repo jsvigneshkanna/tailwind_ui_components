@@ -21,7 +21,7 @@ const Navbar = () => {
     }
   };
   return (
-    <div className="nav_container">
+    <div className="nav_container font-poppins">
       <nav>
         <Image
           src="/nav_logo.png"

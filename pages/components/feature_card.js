@@ -15,7 +15,7 @@ const FeatureCards = () => {
       </Head>
       <Navbar />
 
-      <div className="codepen_page">
+      <div className="codepen_page font-poppins">
         <p className="codepen_brief">
           In late 90s, we do have visiting cards to showcase our portfolio. But
           now, we are in 20th century where 240px X 240px of div is enough for

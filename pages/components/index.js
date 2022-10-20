@@ -14,7 +14,7 @@ const Components = () => {
       </Head>
       <Navbar />
 
-      <div className="component_page">
+      <div className="component_page font-poppins">
         <div className="component_container">
           <a className="component_card" href="/components/buttons">
             <p className="new_ribbon">New Component ⚡</p>

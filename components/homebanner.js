@@ -5,7 +5,7 @@ import {FaPrayingHands} from "react-icons/fa";
 
 const Homebanner = () => {
   return (
-    <div className="banner">
+    <div className="banner font-poppins">
       <div className="banner_container">
         <div className="left_container">
           <div className="what_is">What is Tailwind CSS UI bootstrap</div>

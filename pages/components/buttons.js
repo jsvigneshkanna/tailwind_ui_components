@@ -17,7 +17,7 @@ const Buttons = () => {
       </Head>
       <Navbar />
 
-      <div className="codepen_page">
+      <div className="codepen_page font-poppins">
         <p className="codepen_brief">
           Buttons, widely called CTAs in tech are backbones for engineers to
           make user interact easily and navigate different section with a click
