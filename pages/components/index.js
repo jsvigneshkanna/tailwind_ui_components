@@ -108,7 +108,7 @@ const Components = () => {
             </a>
 
             <a className="component_card" href="/components/feature_card">
-              <p className="in_dev_ribbon">In Dev 🍻</p>
+              <p className="in_dev_ribbon">We are building it Fast 🏃‍♂️</p>
               <img
                 src="/feature_card_component.png"
                 alt="feature_card_component"
@@ -150,6 +150,21 @@ const Components = () => {
                 how can you sell/ market those pricings. Our developers have
                 designed the best pricing templates, Just tweak the text and you
                 are good to go 💰
+              </p>
+            </a>
+
+            <a className="component_card" href="/components/contact_forms">
+              <p className="in_dev_ribbon">We are building it Fast 🏃‍♂️</p>
+              <img
+                src="/contact_component.png"
+                alt="contact_component"
+                className="container_card_img"
+              />
+              <h2 className="component_name">Contact forms Components</h2>
+              <p className="component_brief">
+                As someone in facebook posted &apos;Helps you connect and share
+                with people using contact forms&apos;, we are helping you with
+                best designed contact forms in tailwindCSS 🍽️
               </p>
             </a>
           </div>
