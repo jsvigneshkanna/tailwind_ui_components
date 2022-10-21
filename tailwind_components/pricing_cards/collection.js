@@ -4,8 +4,8 @@ import smallPricingCard from "./small_pricing_card.jsx";
 
 const pricingCardsCollections = [
   {componentName: "Standard Pricing Card", component: standardPricingCard},
-  {componentName: "Vertical Pricing Card", coomponent: verticalPricing},
-  {componentName: "Small Pricing Card", coomponent: smallPricingCard},
+  {componentName: "Vertical Pricing Card", component: verticalPricing},
+  {componentName: "Small Pricing Card", component: smallPricingCard},
 ];
 
 export default pricingCardsCollections;

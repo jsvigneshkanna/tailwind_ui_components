@@ -2,8 +2,8 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
 import Head from "next/head";
-import { useEffect, useState } from "react";
-import { BallTriangle } from "react-loader-spinner";
+import {useEffect, useState} from "react";
+import {BallTriangle} from "react-loader-spinner";
 import Navbar from "../../components/navbar";
 const Components = () => {
   const [loading, setloading] = useState(false);
@@ -92,18 +92,6 @@ const Components = () => {
                 Alerts are used in website due user actions 💭
               </p>
             </a>
-            <a className="component_card" href="/components/badges">
-              <p className="new_ribbon">New Component ⚡</p>
-              <img
-                src="/badges_component_img.png"
-                alt="alert_component"
-                className="container_card_img"
-              />
-              <h2 className="component_name">Badges Components</h2>
-              <p className="component_brief">
-                Badges are used in website some singular word 💭
-              </p>
-            </a>
             <a className="component_card" href="/components/navbars">
               <p className="in_dev_ribbon">Need Contributors 🙏</p>
               <img
@@ -187,7 +175,7 @@ const Components = () => {
                 alt="badge_component"
                 className="container_card_img"
               />
-              <h2 className="component_name">Pricing Card Components</h2>
+              <h2 className="component_name">Badges Components</h2>
               <p className="component_brief">
                 How cool is to have coloured and meaningfull badges near your
                 image/ cards/ testimonials. Sounds interesting, then why waiting
