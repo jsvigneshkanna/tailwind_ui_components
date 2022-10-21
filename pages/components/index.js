@@ -2,9 +2,9 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
 import Head from "next/head";
+import { useEffect, useState } from "react";
+import { BallTriangle } from "react-loader-spinner";
 import Navbar from "../../components/navbar";
-import {BallTriangle} from "react-loader-spinner";
-import {useState, useRef, useEffect} from "react";
 const Components = () => {
   const [loading, setloading] = useState(false);
   useEffect(() => {
@@ -90,6 +90,18 @@ const Components = () => {
               <h2 className="component_name">Alert Components</h2>
               <p className="component_brief">
                 Alerts are used in website due user actions 💭
+              </p>
+            </a>
+            <a className="component_card" href="/components/badges">
+              <p className="new_ribbon">New Component ⚡</p>
+              <img
+                src="/badges_component_img.png"
+                alt="alert_component"
+                className="container_card_img"
+              />
+              <h2 className="component_name">Badges Components</h2>
+              <p className="component_brief">
+                Badges are used in website some singular word 💭
               </p>
             </a>
             <a className="component_card" href="/components/navbars">
