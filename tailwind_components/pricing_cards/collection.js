@@ -1,9 +1,9 @@
-import samplePricingCard from "./sample_pricing_card";
-import smallPricingCard from "./small_pricing_card";
+import standardPricingCard from "./standard_pricing.jsx";
+import verticalPricing from "./vertical_pricing.jsx";
 
 const pricingCardsCollections = [
-  {componentName: "Sample Pricing Card", component: samplePricingCard},
-  {componentName: "Small Pricing Card", component: smallPricingCard},
+  {componentName: "Standard Pricing Card", component: standardPricingCard},
+  {componentName: "Vertical Pricing Card", coomponent: verticalPricing},
 ];
 
 export default pricingCardsCollections;

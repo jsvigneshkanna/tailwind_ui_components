@@ -92,8 +92,8 @@ const Components = () => {
                 Alerts are used in website due user actions 💭
               </p>
             </a>
-            <a className="component_card in_dev_component">
-              <p className="in_dev_ribbon">In Dev 🍻</p>
+            <a className="component_card" href="/components/navbars">
+              <p className="in_dev_ribbon">Need Contributors 🙏</p>
               <img
                 src="/navbar_component.png"
                 alt="navbar_component"
@@ -165,6 +165,21 @@ const Components = () => {
                 As someone in facebook posted &apos;Helps you connect and share
                 with people using contact forms&apos;, we are helping you with
                 best designed contact forms in tailwindCSS 🍽️
+              </p>
+            </a>
+
+            <a className="component_card" href="/components/badges">
+              <p className="in_dev_ribbon">Simple yet difficult 😶‍🌫️</p>
+              <img
+                src="/badge_component.png"
+                alt="badge_component"
+                className="container_card_img"
+              />
+              <h2 className="component_name">Pricing Card Components</h2>
+              <p className="component_brief">
+                How cool is to have coloured and meaningfull badges near your
+                image/ cards/ testimonials. Sounds interesting, then why waiting
+                to check inside 😎
               </p>
             </a>
           </div>

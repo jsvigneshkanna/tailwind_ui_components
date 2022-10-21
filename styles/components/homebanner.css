@@ -54,6 +54,10 @@
   object-fit: contain;
 }
 
+.social_buttons{
+  padding-top: 100px;
+}
+
 @media (max-width: 900px) {
   .banner {
     font-family: "poppins";
