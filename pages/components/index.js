@@ -167,6 +167,21 @@ const Components = () => {
                 best designed contact forms in tailwindCSS 🍽️
               </p>
             </a>
+
+            <a className="component_card" href="/components/badges">
+              <p className="in_dev_ribbon">Simple yet difficult 😶‍🌫️</p>
+              <img
+                src="/badge_component.png"
+                alt="badge_component"
+                className="container_card_img"
+              />
+              <h2 className="component_name">Pricing Card Components</h2>
+              <p className="component_brief">
+                How cool is to have coloured and meaningfull badges near your
+                image/ cards/ testimonials. Sounds interesting, then why waiting
+                to check inside 😎
+              </p>
+            </a>
           </div>
         </div>
       )}
