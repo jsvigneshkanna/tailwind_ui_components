@@ -3,6 +3,7 @@ import Image from "next/image";
 import {useState, useRef, useEffect} from "react";
 import {FaPrayingHands} from "react-icons/fa";
 import {BallTriangle} from "react-loader-spinner";
+import SocialButtons from "./socialbuttons";
 
 const Homebanner = () => {
   const [loading, setloading] = useState(false);
@@ -54,6 +55,9 @@ const Homebanner = () => {
             <div className="right_container">
               <img src="/home_banner.png" alt="banner" />
             </div>
+          </div>
+          <div className="social_buttons">
+            <SocialButtons />
           </div>
         </div>
       )}
