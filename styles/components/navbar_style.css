@@ -16,6 +16,7 @@
   border-radius: 40px;
   box-shadow: 4px 5px 10px 0px rgba(225, 148, 5, 0.479);
   z-index: 100000;
+  font-family: Arial, sans-serif;
 }
 
 nav {

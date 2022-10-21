@@ -6,9 +6,15 @@
 
 </div>
 
-![Screenshot](https://i.postimg.cc/1Rb75nSg/screenshot-rocks.png)
+Homepage
+![image](https://user-images.githubusercontent.com/42484705/196957568-cf73a4b6-3d1a-40dd-9452-fe73e612f5a0.png)
 
-![Screenshot](https://i.postimg.cc/FKJ7vBVk/screenshot-rocks-1.png)
+Components selection page
+![image](https://user-images.githubusercontent.com/42484705/196957666-431c5064-b834-4612-91f1-1e18f0df523c.png)
+
+Codepen page
+![image](https://user-images.githubusercontent.com/42484705/196957932-608baf1a-8b1b-4686-b534-fc88e67d04f8.png)
+
 
 # Motivation
 

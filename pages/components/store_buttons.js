@@ -13,10 +13,10 @@ const Forms = () => {
       <Head>
         <title>Tailwind UI Components</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favi-tailwind.png" type="image/png" />
       </Head>
       <Navbar />
-      <div className="codepen_page">
+      <div className="codepen_page font-poppins">
         <p className="codepen_brief">
           These components can be used in footer and contact pages to showcase
           your social/ company cards 😎
