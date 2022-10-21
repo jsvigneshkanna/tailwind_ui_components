@@ -1,8 +1,8 @@
-import samplePricingCard from "./sample_pricing_card";
+import standardPricingCard from "./standard_pricing.jsx";
 import verticalPricing from "./vertical_pricing";
 
 const pricingCardsCollections = [
-  {componentName: "Sample Pricing Card", component: samplePricingCard},
+  {componentName: "Standard Pricing Card", component: standardPricingCard},
   {componentName: "Vertical Pricing Card", coomponent: verticalPricing},
 ];
 
