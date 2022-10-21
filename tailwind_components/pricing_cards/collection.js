@@ -1,7 +1,7 @@
-import samplePricingCard from "./sample_pricing_card";
+import standardPricingCard from "./standard_pricing.jsx";
 
 const pricingCardsCollections = [
-  {componentName: "Sample Pricing Card", component: samplePricingCard},
+  {componentName: "Standard Pricing Card", component: standardPricingCard},
 ];
 
 export default pricingCardsCollections;
