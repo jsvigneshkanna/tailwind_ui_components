@@ -16,7 +16,7 @@ const NavbarComponent = () => {
       <Navbar />
 
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief">
+        <p className="codepen_brief bg-sky-300 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
           Guess, IRL where no navbars in website which has 20 pages. This would
           rather increase the memory power in memorizing all the URLs 🤪
         </p>

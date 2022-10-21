@@ -15,7 +15,7 @@ const Forms = () => {
       </Head>
       <Navbar />
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief">
+        <p className="codepen_brief bg-sky-300 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
           Forms are vital in website/ apps where these helps end users to
           interact with the website smoothly and increase user experience 📝
         </p>
