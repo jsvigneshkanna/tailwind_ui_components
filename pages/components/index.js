@@ -92,8 +92,8 @@ const Components = () => {
                 Alerts are used in website due user actions 💭
               </p>
             </a>
-            <a className="component_card in_dev_component">
-              <p className="in_dev_ribbon">In Dev 🍻</p>
+            <a className="component_card" href="/components/navbars">
+              <p className="in_dev_ribbon">Need Contributors 🙏</p>
               <img
                 src="/navbar_component.png"
                 alt="navbar_component"
