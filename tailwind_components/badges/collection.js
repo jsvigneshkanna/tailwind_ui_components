@@ -1,5 +1,5 @@
-import test from "../navbars/test_file";
+import exampleBadges from "./colorful_badge";
 
-const badgeCollection = [{componentName: "Sample dev Badges", component: test}];
+const badgeCollection = [{componentName: "Example of Badges", component: exampleBadges}];
 
 export default badgeCollection;
