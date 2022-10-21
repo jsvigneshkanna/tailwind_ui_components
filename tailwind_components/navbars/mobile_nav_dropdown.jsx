@@ -10,11 +10,11 @@ const mobile_nav_dropdown = stripIndent`
     </svg>
 
     <ul class="my-10 mx-8 flex flex-col gap-7 text-xl font-light tracking-wide text-gray-600">
-      <li class="font-bold hover:text-blue-700">Home</li>
-      <li class="font-bold hover:text-blue-700">Product</li>
-      <li class="font-bold hover:text-blue-700">Shop</li>
-      <li class="font-bold hover:text-blue-700">Pricing</li>
-      <li class="font-bold hover:text-blue-700">Contact</li>
+      <li class="font-bold hover:text-blue-700">Home </li>
+      <li class="font-bold hover:text-blue-700">Product </li>
+      <li class="font-bold hover:text-blue-700">Shop </li>
+      <li class="font-bold hover:text-blue-700">Pricing </li>
+      <li class="font-bold hover:text-blue-700">Contact </li>
       <li>
         <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="inline-flex items-center text-center font-bold text-gray-600 hover:text-blue-700" type="button">
           Dropdown button <svg class="ml-2 h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>

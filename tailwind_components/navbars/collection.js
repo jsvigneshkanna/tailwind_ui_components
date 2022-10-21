@@ -6,7 +6,7 @@ const navbarCollections = [
   {componentName: "Sample Dev codepen", component: test},
   {componentName: "Animated Navbar", component: animated_navbar},
   {componentName: "Mobile NavBar Icons", component: mobile_nav_icons},
-  {componentName: "Mobile Nav DropDown", component: mobile_nav_dropdown}
+  {componentName: "Mobile Nav DropDown ", component: mobile_nav_dropdown}
 ];
 
 export default navbarCollections;
