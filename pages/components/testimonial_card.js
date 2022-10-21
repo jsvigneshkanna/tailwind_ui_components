@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Navbar from "../../components/navbar";
 import Codepen from "../../components/codepen";
-// import test from "../tailwind_components/buttons/test_file.jsx";
+import Footer from "../../components/footer";
 import testimonialCardsCollections from "../../tailwind_components/testimonial_cards/collection";
 
 const TestimonialCards = () => {
@@ -29,6 +29,7 @@ const TestimonialCards = () => {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 };

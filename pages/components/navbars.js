@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Navbar from "../../components/navbar";
 import Codepen from "../../components/codepen";
-// import test from "../tailwind_components/buttons/test_file.jsx";
+import Footer from "../../components/footer";
 import navbarCollections from "../../tailwind_components/navbars/collection";
 
 const NavbarComponent = () => {
@@ -31,6 +31,7 @@ const NavbarComponent = () => {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 };

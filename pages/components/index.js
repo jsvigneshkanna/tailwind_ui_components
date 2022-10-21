@@ -5,6 +5,8 @@ import Head from "next/head";
 import {useEffect, useState} from "react";
 import {BallTriangle} from "react-loader-spinner";
 import Navbar from "../../components/navbar";
+import Footer from "../../components/footer";
+
 const Components = () => {
   const [loading, setloading] = useState(false);
   useEffect(() => {
@@ -185,6 +187,7 @@ const Components = () => {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 };

@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Navbar from "../../components/navbar";
 import Codepen from "../../components/codepen";
-// import test from "../tailwind_components/buttons/test_file.jsx";
+import Footer from "../../components/footer";
 import pricingCardsCollections from "../../tailwind_components/pricing_cards/collection";
 
 const PricingCards = () => {
@@ -32,6 +32,7 @@ const PricingCards = () => {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 };

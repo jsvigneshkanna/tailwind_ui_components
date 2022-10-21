@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Navbar from "../../components/navbar";
-import {useRouter} from "next/router";
 import Codepen from "../../components/codepen";
 import badgeCollection from "../../tailwind_components/badges/collection";
+import Footer from "../../components/footer";
 
 const Badge = () => {
   return (
@@ -29,6 +29,7 @@ const Badge = () => {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 };

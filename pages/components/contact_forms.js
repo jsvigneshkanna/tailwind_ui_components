@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Navbar from "../../components/navbar";
 import Codepen from "../../components/codepen";
-// import test from "../tailwind_components/buttons/test_file.jsx";
+import Footer from "../../components/footer";
 import contactFormsCollection from "../../tailwind_components/contact_forms/collection";
 
 const contactForms = () => {
@@ -32,6 +32,7 @@ const contactForms = () => {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 };

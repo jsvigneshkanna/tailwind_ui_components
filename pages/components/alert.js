@@ -1,13 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Navbar from "../../components/navbar";
-import {useRouter} from "next/router";
 import Codepen from "../../components/codepen";
-// import test from "../tailwind_components/buttons/test_file.jsx";
 import alertCollections from "../../tailwind_components/alerts/collection";
+import Footer from "../../components/footer";
 
 const Alert = () => {
-  const router = useRouter();
   return (
     <div>
       <Head>
@@ -29,6 +27,7 @@ const Alert = () => {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 };
