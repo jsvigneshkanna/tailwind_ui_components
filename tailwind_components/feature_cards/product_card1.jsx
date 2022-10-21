@@ -1,8 +1,8 @@
 import { stripIndent } from "react-codepen-prefill-embed";
 
 const productCard = stripIndent`
-<div class="flex h-screen w-screen items-center justify-center bg-slate-800">
-  <div class="w-64 max-w-sm rounded-xl border border-gray-200 bg-white shadow-md">
+<div class="flex h-full w-full items-center justify-center bg-slate-800">
+  <div class="w-64 my-10 max-w-sm rounded-xl border border-gray-200 bg-white shadow-md">
     <a href="#"> </a>
     <div class="flex flex-col items-center justify-center p-6 text-center">
       <a href="#"> </a>
