@@ -3,13 +3,13 @@ import Head from "next/head";
 import Navbar from "../../components/navbar";
 import Codepen from "../../components/codepen";
 // import test from "../tailwind_components/buttons/test_file.jsx";
-import featureCardColletion from "../../tailwind_components/feature_cards/collection";
+import contactFormsCollection from "../../tailwind_components/contact_forms/collection";
 
-const FeatureCards = () => {
+const contactForms = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI Feature Card Components</title>
+        <title>Tailwind UI Contact Forms</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
         <link rel="icon" href="/favi-tailwind.png" type="image/png" />
       </Head>
@@ -17,17 +17,17 @@ const FeatureCards = () => {
 
       <div className="codepen_page font-poppins">
         <p className="codepen_brief">
-          In late 90s, we do have visiting cards to showcase our portfolio. But
-          now, we are in 20th century where 240px X 240px of div is enough for
-          showcasing our portfolio 💳
+          As someone in facebook posted &apos;Helps you connect and share with
+          people using contact forms&apos;, we are helping you with best
+          designed contact forms in tailwindCSS 🍽️
         </p>
-        {featureCardColletion.map((featureCard, index) => {
+        {contactFormsCollection.map((contactForm, index) => {
           return (
             <div key={index} className="codepen_container">
               <h3 className="codepen_name">
-                {index + 1}. {featureCard.componentName}
+                {index + 1}. {contactForm.componentName}
               </h3>
-              <Codepen htmlText={featureCard.component} />
+              <Codepen htmlText={contactForm.component} />
             </div>
           );
         })}
@@ -35,4 +35,4 @@ const FeatureCards = () => {
     </div>
   );
 };
-export default FeatureCards;
+export default contactForms;
