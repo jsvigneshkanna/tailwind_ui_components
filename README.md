@@ -47,3 +47,23 @@ These people are sole backbone for this software. Want to get place in below hal
 <div align="center">
 Show some ❤️ by starring this awesome repository!
 </div>
+
+# Getting started to contribute/use
+
+ 1. Fork the repository from [Repository](https://github.com/jsvigneshkanna/tailwind_ui_components). Just click at `fork` icon to create a fork-repository in your GitHub. In your local machine clone the forked repository with command and go to your repository
+ `git clone https://github.com/<username>/tailwind_ui_components.git`
+ `cd tailwind_ui_components`
+ 2. After you choose the issue create new branch. (Use issue specifying either documentation, bug or feature than issue number and what should be done) 
+ `git checkout -b <branch_name> `
+ 3. Install dependencies
+ `npm install`
+ 4. Run code locally
+ `npm run dev`
+ 5. Go to `localhost:3000`
+ 6. Make the changes in code and test these. (nextJS and tailwind/plain CSS)
+ 7. After changes are ready, commit the changes:
+ `git add <changed_file> `
+ `git commit -m "commit message"`
+ 8. Push the changes to origin
+ `git push origin <branch_name>`
+ 9. After that create new Pull Request in your GitHub account. (It should appeared after commits were pushed)
