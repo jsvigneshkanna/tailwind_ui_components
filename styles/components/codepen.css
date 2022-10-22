@@ -15,7 +15,7 @@
 
 .codepen_brief {
   text-align: center;
-  color: #0e6ddb;
+  color: #0477fb;
   font-weight: 600;
   font-size: 20px;
 }
@@ -44,5 +44,8 @@
     font-size: 18px;
     margin-left: 3%;
     width: 94%;
+  }
+  .codepen_brief {
+    font-size: 14px;
   }
 }

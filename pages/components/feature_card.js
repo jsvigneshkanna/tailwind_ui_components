@@ -16,7 +16,7 @@ const FeatureCards = () => {
       <Navbar />
 
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief bg-sky-300 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
+        <p className="codepen_brief bg-sky-200 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
           In late 90s, we do have visiting cards to showcase our portfolio. But
           now, we are in 20th century where 240px X 240px of div is enough for
           showcasing our portfolio 💳
