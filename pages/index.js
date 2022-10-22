@@ -2,6 +2,8 @@ import Head from "next/head";
 
 import Navbar from "../components/navbar";
 import Homebanner from "../components/homebanner";
+import Footer from "../components/footer";
+import SocialButtons from "../components/socialbuttons";
 
 export default function Home() {
   return (
@@ -41,6 +43,10 @@ export default function Home() {
       <div className=" bg-slate-100 w-full min-h-screen font-poppins">
         <Navbar />
         <Homebanner />
+        <div className="social_buttons">
+          <SocialButtons />
+        </div>
+        <Footer />
       </div>
     </>
   );
