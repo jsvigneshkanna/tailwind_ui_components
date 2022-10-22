@@ -9,7 +9,7 @@ const Footer = () => {
           <div class="mb-6 md:mb-0 mt-6 md:mt-0">
             <a
               href="https://tailwindcsscomponents.vercel.app/"
-              class="flex items-center">
+              class="flex items-center justify-center">
               <img
                 src="/favi-tailwind.png"
                 class="md:mr-3 h-10 mr-1"
