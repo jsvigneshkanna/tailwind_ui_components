@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer class=" p-6 sm:p-6 bg-gradient-to-bl from-[#2a003c] to-[#010142] border-teal-200 border-t-2">
+      <footer class=" p-6 sm:p-6 bg-gradient-to-bl from-[#2a003c] to-[#010142]">
         <div class="md:flex md:flex-row flex-col md:justify-between md:px-40 pt-0 md:pt-8">
           <div class="mb-6 md:mb-0 mt-6 md:mt-0">
             <a
