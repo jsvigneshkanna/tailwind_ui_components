@@ -18,7 +18,7 @@ const Components = () => {
       <div className="component_page font-poppins">
         <div className="text-center md:text-2xl text-base mb-20 text-blue-700 bg-sky-200 font-semibold flex md:mx-48 mx-4 justify-center items-center py-4 rounded-3xl flex-col md:flex-row">
           👩‍💻 Built for developers by developers 🧑‍💻 like to contribute?
-          <span className="ml-6 bg-rose-600 text-white px-3 rounded-3xl">
+          <span className="ml-6 bg-rose-600 text-white px-3 rounded-3xl mt-4 md:mt-0">
             <a href="https://github.com/jsvigneshkanna/tailwind_ui_components">
               check here 👉
             </a>
