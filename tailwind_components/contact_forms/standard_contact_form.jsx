@@ -2,7 +2,7 @@ import { stripIndent } from "react-codepen-prefill-embed";
 
 const contactForm = stripIndent`
 <div class="flex h-full w-full items-center justify-center bg-slate-800">
-  <div class="my-10 rounded-xl border border-gray-200 bg-white shadow-md">
+  <div class="my-10 rounded-xl border mx-5 border-gray-200 bg-white shadow-md">
     <a href="#"> </a>
     <div class="flex flex-col items-center justify-center p-6 text-center">
       <a href="#"> </a>
