@@ -3,8 +3,8 @@ import { stripIndent } from "react-codepen-prefill-embed";
 const searchNav = stripIndent`
 <nav class="my-4 rounded border-gray-200 bg-white px-2 py-2.5 sm:px-4">
   <div class="container flex flex-wrap items-center justify-between">
-    <a href="https://tailwindcss.com/" class="flex items-center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" class="mr-3 h-9" alt="Tailwind Logo" />
+    <a href="https://github.com/jsvigneshkanna/tailwind_ui_components" class="flex items-center">
+      <img src="https://placeholderlogo.com/img/placeholder-logo-1.png" class="mr-3 h-9" alt="Tailwind Logo" />
     </a>
     <form>
       <label for="default-search" class="sr-only mb-2 text-sm font-medium text-gray-900">Search</label>
