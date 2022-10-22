@@ -4,8 +4,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer class=" p-6 sm:p-6 bg-gradient-to-b from-red-900 to-violet-900">
-        <div class="md:flex md:flex-row flex-col md:justify-between md:px-40">
+      <footer class=" p-6 sm:p-6 bg-gradient-to-bl from-[#2a003c] to-[#010142] border-teal-200 border-t-2">
+        <div class="md:flex md:flex-row flex-col md:justify-between md:px-40 pt-0 md:pt-8">
           <div class="mb-6 md:mb-0 mt-6 md:mt-0">
             <a
               href="https://tailwindcsscomponents.vercel.app/"
@@ -27,18 +27,18 @@ const Footer = () => {
               <h2 class="mb-4 text-xs md:text-lg font-semibold uppercase text-white underline underline-offset-2">
                 Follow us
               </h2>
-              <ul class="text-gray-400 text-xs md:text-lg">
+              <ul class="text-gray-200 text-xs md:text-lg">
                 <li class="mb-4">
                   <a
                     href="https://github.com/jsvigneshkanna/tailwind_ui_components"
-                    class="hover:underline hover:text-blue-500">
+                    class="hover:underline hover:text-blue-300">
                     Github
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://discord.com/channels/1031097107324620860/1031097107324620862"
-                    class="hover:underline hover:text-blue-500">
+                    class="hover:underline hover:text-blue-300">
                     Discord
                   </a>
                 </li>
@@ -48,14 +48,14 @@ const Footer = () => {
               <h2 class="mb-4 text-xs md:text-lg font-semibold uppercase text-white underline underline-offset-2">
                 Legal
               </h2>
-              <ul class="text-gray-400 text-xs md:text-lg">
+              <ul class="text-gray-200 text-xs md:text-lg">
                 <li class="mb-4">
-                  <a href="" class="hover:underline hover:text-blue-500">
+                  <a href="" class="hover:underline hover:text-blue-300">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="" class="hover:underline hover:text-blue-500">
+                  <a href="" class="hover:underline hover:text-blue-300">
                     License
                   </a>
                 </li>
@@ -67,9 +67,11 @@ const Footer = () => {
         <div class="sm:flex sm:items-center sm:justify-between md:px-40 text-center">
           <span class="text-sm text-white sm:text-center">
             © 2022{" "}
-            <a href="https://github.com/jsvigneshkanna" class="hover:underline">
+            <a
+              href="https://github.com/jsvigneshkanna"
+              className="hover:underline text-orange-300">
               SUSAVI™
-            </a>
+            </a>{" "}
             . All Rights Reserved.
           </span>
         </div>
