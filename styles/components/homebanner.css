@@ -39,7 +39,7 @@
 }
 
 .what_is_ans p {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .right_container {
@@ -52,10 +52,6 @@
   display: flex;
   justify-content: center;
   object-fit: contain;
-}
-
-.social_buttons{
-  padding-top: 100px;
 }
 
 @media (max-width: 900px) {

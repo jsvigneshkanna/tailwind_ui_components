@@ -1,13 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Navbar from "../../components/navbar";
-import {useRouter} from "next/router";
 import Codepen from "../../components/codepen";
-// import test from "../tailwind_components/buttons/test_file.jsx";
+import Footer from "../../components/footer";
 import formCollections from "../../tailwind_components/forms/collection";
 
 const Forms = () => {
-  const router = useRouter();
   return (
     <div>
       <Head>
@@ -17,7 +15,7 @@ const Forms = () => {
       </Head>
       <Navbar />
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief">
+        <p className="codepen_brief bg-sky-200 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
           Forms are vital in website/ apps where these helps end users to
           interact with the website smoothly and increase user experience 📝
         </p>
@@ -30,6 +28,7 @@ const Forms = () => {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 };
