@@ -4,12 +4,11 @@ import {BallTriangle} from "react-loader-spinner";
 import SocialButtons from "./socialbuttons";
 
 const Homebanner = () => {
-  const [loading, setloading] = useState(false);
+  const [loading, setloading] = useState(true);
   useEffect(() => {
-    setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 1500);
+    }, 600);
   }, []);
   return (
     <div>

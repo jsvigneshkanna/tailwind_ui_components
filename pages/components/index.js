@@ -8,12 +8,11 @@ import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
 
 const Components = () => {
-  const [loading, setloading] = useState(false);
+  const [loading, setloading] = useState(true);
   useEffect(() => {
-    setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 1500);
+    }, 500);
   }, []);
   return (
     <div>
