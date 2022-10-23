@@ -46,7 +46,7 @@ const Homebanner = () => {
                   Additional point, checkout components page - dont say this to
                   your competitors 😆{" "}
                   <Link href="/components">
-                    <span className="bg-sky-500 text-white p-1 rounded-3xl px-4 hover:cursor-pointer hover:bg-sky-600">
+                    <span className="bg-sky-500 whitespace-nowrap text-white p-1 rounded-3xl px-4 hover:cursor-pointer hover:bg-sky-600">
                       learn more ➡️
                     </span>
                   </Link>

@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+/* eslint-disable @next/next/no-html-link-for-pages */
+
 import React from "react";
 
 const Footer = () => {
@@ -31,6 +33,8 @@ const Footer = () => {
                 <li className="mb-4">
                   <a
                     href="https://github.com/jsvigneshkanna/tailwind_ui_components"
+                    target="_blank"
+                    rel="noreferrer"
                     className="hover:underline hover:text-blue-300">
                     Github
                   </a>
@@ -38,6 +42,8 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://discord.com/channels/1031097107324620860/1031097107324620862"
+                    target="_blank"
+                    rel="noreferrer"
                     className="hover:underline hover:text-blue-300">
                     Discord
                   </a>
@@ -55,7 +61,9 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:underline hover:text-blue-300">
+                  <a
+                    href="/legal/license"
+                    className="hover:underline hover:text-blue-300">
                     License
                   </a>
                 </li>
