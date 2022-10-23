@@ -38,7 +38,7 @@ const Navbar = () => {
             <Link href="/">Documentation</Link>
           </div>
           <div className="nav_links">
-            <Link href="/">About Us</Link>
+            <Link href="/aboutUs">About Us</Link>
           </div>
         </div>
         <div className="flex sm:hidden hamburger" onClick={showMenu}>
@@ -53,7 +53,7 @@ const Navbar = () => {
           <Link href="/">Documentation</Link>
         </div>
         <div className="nav_links">
-          <Link href="/">About Us</Link>
+          <Link href="/aboutUs">About Us</Link>
         </div>
       </div>
     </div>
