@@ -11,7 +11,7 @@ const AboutUs = () => {
             }, 600);
       }, []);
       fetch('https://api.github.com/repos/jsvigneshkanna/tailwind_ui_components/contributors').then(res => res.json()).then(res => {
-            if (document.getElementById('contr').innerHTML == "") {
+            if (document.getElementById('contributors').innerHTML == "") {
                   for (var xx = 0; xx < res.length; xx++) {
                         document.getElementById('contributors').innerHTML += ` <a href="${res[xx].url}" class=" overflow-hidden flex flex-col justify-evenly w-28 m-4"><img class="inline rounded-full"
                                                                   src="${res[xx].avatar_url}"
