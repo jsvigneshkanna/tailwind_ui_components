@@ -11,7 +11,7 @@ const horizontalTestimonial = stripIndent`
       <div class="bg-blend-multiply">
         <div class="h-0">
           <nav class = "mx-4 -ml-5 -mt-5 mb-0 ">
-          <a href="https://youtu.be/dQw4w9WgXcQ"><img src=https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" alt="" height="140" width="140" class = "object-cover h-60 w-60 rounded-t-md"  > </a>
+          <a href="https://github.com/jsvigneshkanna/tailwind_ui_components"><img src=https://images.unsplash.com/photo-1522003878398-14c13adf3c5d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9" alt="" height="170" width="140" class = "object-cover h-60 w-60 rounded-t-md"  > </a>
           </nav>
         </div>
       </div>
