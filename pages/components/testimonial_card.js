@@ -9,9 +9,9 @@ const TestimonialCards = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI Components</title>
+        <title>Tailwind UI | Testimonial Cards</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
-        <link rel="icon" href="/favi-tailwind.png" type="image/png" />
+        <link rel="icon" href="/favicon/favicon.png" type="image/png" />
       </Head>
       <Navbar />
       <div className="codepen_page font-poppins">

@@ -9,9 +9,9 @@ const NavbarComponent = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI navbar Components</title>
+        <title>Tailwind UI | navbar</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
-        <link rel="icon" href="/favi-tailwind.png" type="image/png" />
+        <link rel="icon" href="/favicon/favicon.png" type="image/png" />
       </Head>
       <Navbar />
 

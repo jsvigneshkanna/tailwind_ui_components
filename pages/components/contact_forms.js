@@ -9,9 +9,9 @@ const contactForms = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI Contact Forms</title>
+        <title>Tailwind UI | Contact Forms</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
-        <link rel="icon" href="/favi-tailwind.png" type="image/png" />
+        <link rel="icon" href="/favicon/favicon.png" type="image/png" />
       </Head>
       <Navbar />
 
