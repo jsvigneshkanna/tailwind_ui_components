@@ -4,7 +4,6 @@ import Navbar from "../components/navbar";
 import Homebanner from "../components/homebanner";
 import Footer from "../components/footer";
 import SocialButtons from "../components/socialbuttons";
-import GitStats from "../components/gitstats";
 
 export default function Home() {
   return (
@@ -43,7 +42,6 @@ export default function Home() {
 
       <div className=" bg-slate-100 w-full min-h-screen font-poppins">
         <Navbar />
-        <GitStats />
         <Homebanner />
         <div className="social_buttons">
           <SocialButtons />
