@@ -1,13 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Navbar from "../../components/navbar";
-import {useRouter} from "next/router";
 import Codepen from "../../components/codepen";
-// import test from "../tailwind_components/buttons/test_file.jsx";
+import Footer from "../../components/footer";
 import buttonCollections from "../../tailwind_components/buttons/collection";
 
 const Buttons = () => {
-  const router = useRouter();
   return (
     <div>
       <Head>
@@ -18,7 +16,7 @@ const Buttons = () => {
       <Navbar />
 
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief">
+        <p className="codepen_brief bg-sky-200 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
           Buttons, widely called CTAs in tech are backbones for engineers to
           make user interact easily and navigate different section with a click
           👆
@@ -34,6 +32,7 @@ const Buttons = () => {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 };

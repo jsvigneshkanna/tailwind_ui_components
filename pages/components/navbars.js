@@ -3,28 +3,30 @@ import Head from "next/head";
 import Navbar from "../../components/navbar";
 import Codepen from "../../components/codepen";
 import Footer from "../../components/footer";
-import testimonialCardsCollections from "../../tailwind_components/testimonial_cards/collection";
+import navbarCollections from "../../tailwind_components/navbars/collection";
 
-const TestimonialCards = () => {
+const NavbarComponent = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI Components</title>
+        <title>Tailwind UI navbar Components</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
         <link rel="icon" href="/favi-tailwind.png" type="image/png" />
       </Head>
       <Navbar />
+
       <div className="codepen_page font-poppins">
         <p className="codepen_brief bg-sky-200 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
-          Still Guessing how can you showcase your testimonials(You do have 🤪).
-          Dont worry if don&apos;t have testimonials or have no idea how to
-          design it, click this card
+          Guess, IRL where no navbars in website which has 20 pages. This would
+          rather increase the memory power in memorizing all the URLs 🤪
         </p>
-        {testimonialCardsCollections.map((testimonialCard, index) => {
+        {navbarCollections.map((navbar, index) => {
           return (
             <div key={index} className="codepen_container">
-              <h3 className="codepen_name">{testimonialCard.componentName}</h3>
-              <Codepen htmlText={testimonialCard.component} />
+              <h3 className="codepen_name">
+                {index + 1}. {navbar.componentName}
+              </h3>
+              <Codepen htmlText={navbar.component} />
             </div>
           );
         })}
@@ -33,4 +35,4 @@ const TestimonialCards = () => {
     </div>
   );
 };
-export default TestimonialCards;
+export default NavbarComponent;

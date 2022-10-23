@@ -6,14 +6,14 @@
 
 </div>
 
-Homepage
-![image](https://user-images.githubusercontent.com/42484705/196957568-cf73a4b6-3d1a-40dd-9452-fe73e612f5a0.png)
+**Homepage**
+![image](https://user-images.githubusercontent.com/42484705/197355352-1becb11c-3e03-426c-b20c-5c14db6ac9ee.png)
 
-Components selection page
-![image](https://user-images.githubusercontent.com/42484705/196957666-431c5064-b834-4612-91f1-1e18f0df523c.png)
+**Components selection page**
+![image](https://user-images.githubusercontent.com/42484705/197355398-e36d1cb5-15aa-4c47-b5dc-e56c5f7f630b.png)
 
-Codepen page
-![image](https://user-images.githubusercontent.com/42484705/196957932-608baf1a-8b1b-4686-b534-fc88e67d04f8.png)
+**Codepen page**
+![image](https://user-images.githubusercontent.com/42484705/197355431-718855e6-66ab-4229-b5bb-db3fda5956ff.png)
 
 
 # Motivation
@@ -34,6 +34,26 @@ Please follow the [contributing guide](./CONTRIBUTING.md) for this repo. Anythin
 
 This contribution is not forced but welcomed, as this will help us run this software for long time
 Buy us coffee or tea or even a book at [buymeacoffee 🍵](https://www.buymeacoffee.com/jsvigneshkanna?new=1)
+
+# Getting started to contribute/use
+
+ 1. Fork the repository from [Repository](https://github.com/jsvigneshkanna/tailwind_ui_components). Just click at `fork` icon to create a fork-repository in your GitHub. In your local machine clone the forked repository with command and go to your repository
+ `git clone https://github.com/<username>/tailwind_ui_components.git`
+ `cd tailwind_ui_components`
+ 2. After you choose the issue create new branch. (Use issue specifying either documentation, bug or feature than issue number and what should be done) 
+ `git checkout -b <branch_name> `
+ 3. Install dependencies
+ `npm install`
+ 4. Run code locally
+ `npm run dev`
+ 5. Go to `localhost:3000`
+ 6. Make the changes in code and test these. (nextJS and tailwind/plain CSS)
+ 7. After changes are ready, commit the changes:
+ `git add <changed_file> `
+ `git commit -m "commit message"`
+ 8. Push the changes to origin
+ `git push origin <branch_name>`
+ 9. After that create new Pull Request in your GitHub account. (It should appeared after commits were pushed)
 
 # Contributors 🎉
 
