@@ -41,8 +41,9 @@ const FAQs = () => {
                         ans: 'You can contribute from <a href="https://github.com/jsvigneshkanna/tailwind_ui_components" class="text-blue-700">Here</a>'
                   },
             }
-            for (const q in data) {
-                  document.getElementById('faqs').innerHTML += `<div class="border-b font-medium border-black my-2 overflow-hidden">
+           if (document.getElementById('faqs').innerHTML == "") {
+                  for (const q in data) {
+                        document.getElementById('faqs').innerHTML += `<div class="border-b font-medium border-black my-2 overflow-hidden">
                                     <div class="flex justify-between p-3 items-center ">
                                           <p>${data[q].qus}</p>
                                           <p class="ml-2 border border-black rounded-full  answer_btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -54,6 +55,7 @@ const FAQs = () => {
                                                 <hr>
                                                 <p class="hidden p-3">${data[q].ans}</p>
                                                 </div>`
+                  }
             }
             Array.from(document.getElementsByClassName('answer_btn')).forEach((e) => {
                   e.addEventListener('click', (ee) => {
