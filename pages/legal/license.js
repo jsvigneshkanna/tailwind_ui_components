@@ -41,7 +41,7 @@ export default function License() {
         />
       </Head>
 
-      <div className=" component_page bg-slate-100 w-full min-h-screen font-poppins">
+      <div className=" legal_container w-full font-poppins">
         <Navbar />
         <LicenseContent />
         <div className="social_buttons">
