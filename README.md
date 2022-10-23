@@ -7,7 +7,7 @@
 </div>
 
 **Homepage**
-![image](https://user-images.githubusercontent.com/42484705/197355352-1becb11c-3e03-426c-b20c-5c14db6ac9ee.png)
+![image](https://user-images.githubusercontent.com/42484705/197400691-d6bae1a1-8603-4b31-92e5-f24aaf966c14.png)
 
 **Components selection page**
 ![image](https://user-images.githubusercontent.com/42484705/197355398-e36d1cb5-15aa-4c47-b5dc-e56c5f7f630b.png)
