@@ -1,79 +1,113 @@
 /* eslint-disable @next/next/no-img-element */
-import { useState, useEffect } from "react";
-import { BallTriangle } from "react-loader-spinner";
-import Link from "next/link";
+import {useState, useEffect} from "react";
+import {BallTriangle} from "react-loader-spinner";
+import {SiBuymeacoffee} from "react-icons/si";
 
 const AboutUs = () => {
-      const [loading, setloading] = useState(true);
-      useEffect(() => {
-            setTimeout(() => {
-                  setloading(false);
-            }, 600);
-      }, []);
-      fetch('https://api.github.com/repos/jsvigneshkanna/tailwind_ui_components/contributors').then(res => res.json()).then(res => {
-            if (document.getElementById('contributors').innerHTML == "") {
-                  for (var xx = 0; xx < res.length; xx++) {
-                        document.getElementById('contributors').innerHTML += ` <a href="${res[xx].url}" class=" overflow-hidden flex flex-col justify-evenly w-28 m-4"><img class="inline rounded-full"
-                                                                  src="${res[xx].avatar_url}"
-                                                                  alt=""/><span
-                                                                  class="text-white"><div class="w-full text-center">${res[xx].login}</div></span></a>`
-                  }
+  const [loading, setloading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setloading(false);
+      fetch(
+        "https://api.github.com/repos/jsvigneshkanna/tailwind_ui_components/contributors",
+      )
+        .then((res) => res.json())
+        .then((res) => {
+          if (document.getElementById("contributors").innerHTML == "") {
+            for (var xx = 0; xx < res.length; xx++) {
+              document.getElementById(
+                "contributors",
+              ).innerHTML += ` <a href="https://github.com/${res[xx].login}" target="_blank" rel="noreferrer" class=" overflow-hidden flex flex-col justify-evenly w-28 m-4"><img class="inline rounded-full"
+                                                                src="${res[xx].avatar_url}"
+                                                                alt=""/><span
+                                                                class="text-white"><div class="w-full text-center mt-4">${res[xx].login}</div></span></a>`;
             }
-      })
-      return (
-            <div>
-                  {loading ? (
-                        <div
-                              style={{
-                                    height: "100vh",
-                                    backgroundColor: "rgba(0,0,0,0.99)",
-                                    display: "flex",
-                                    justifyContent: "center",
-                              }}
-                              className="banner">
-                              <BallTriangle
-                                    height="100"
-                                    width="100"
-                                    color="#e39a09"
-                                    ariaLabel="loading"
-                              />
-                        </div>
-                  ) : (
-                        <div className="banner">
-                              <div>
-                                    <div class="w-full flex justify-evenly flex-wrap">
-                                          <div class="w-5/12 my-5 p-2 m border-white border-2 rounded">
-                                                <p class="w-full text-xl  text-white">Our website motivation</p>
-                                                <hr class="bg-white" />
-                                                <p class="w-full text-white">We do know tailwind css is an emerging CSS framework which makes
-                                                      our website/ app unique without styling compared to
-                                                      other market bootstraps.</p>
+          }
+        });
+    }, 600);
+  }, []);
 
-                                          </div>
-                                          <div class="w-5/12 my-5 p-2 m border-white border-2 rounded">
-                                                <p class="w-full text-xl text-white">Solution we are providing</p>
-                                                <hr class="bg-white" />
-                                                <p class="w-full text-white">You can get almost all layouts and components built under Tailwind
-                                                      CSS, and the best part is we can play around with them
-                                                      in inbuilt code editor and copy the codebase too for your projects.</p>
-                                          </div>
-                                    </div>
-                                    <div>
-                                          <div>
-                                                <p class=" mt-8 ml-10 text-xl  text-white">Our contributers:</p>
-
-                                                <div class="p-6 px-5 overflow-auto ">
-                                                      <div id="contributors" class="overflow-auto whitespace-nowrap w-auto flex flex-wrap justify-evenly  border-white border-2 rounded">
-
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  )}
+  return (
+    <div>
+      {loading ? (
+        <div
+          style={{
+            height: "100vh",
+            backgroundColor: "rgba(0,0,0,0.99)",
+            display: "flex",
+            justifyContent: "center",
+          }}
+          className="banner">
+          <BallTriangle
+            height="100"
+            width="100"
+            color="#e39a09"
+            ariaLabel="loading"
+          />
+        </div>
+      ) : (
+        <div className="banner">
+          <div>
+            <div className="flex  flex-col justify-center items-center flex-wrap">
+              <div className="my-5 mx-3 p-6  md:w-4/5 md:mx-0 flex flex-col justify-center items-center border-white border-2 rounded-lg bg-sky-300">
+                <p className="text-xl font-bold underline underline-offset-4 text-blue-700 mb-4">
+                  Our motivation ⚡
+                </p>
+                <hr className="bg-white" />
+                <p className="w-full text-center text-blue-900 font-semibold">
+                  We do know tailwind css is an emerging CSS framework which
+                  makes our website/ app unique without styling compared to
+                  other market bootstraps.
+                </p>
+              </div>
+              <div className="my-5 mx-3 p-6  md:w-4/5 md:mx-0 flex flex-col justify-center items-center border-white border-2 rounded-lg bg-sky-300">
+                <p className="text-xl font-bold underline underline-offset-4 text-blue-700 mb-4">
+                  Solution we are providing 🧑‍💻
+                </p>
+                <hr className="bg-white" />
+                <p className="w-full text-center text-blue-900 font-semibold">
+                  You can get almost all layouts and components built under
+                  Tailwind CSS, and the best part is we can play around with
+                  them in inbuilt code editor and copy the codebase too for your
+                  projects.
+                </p>
+              </div>
+              <div className="my-5 mx-3 p-6  md:w-4/5 md:mx-0 flex flex-col justify-center items-center border-white border-2 rounded-lg bg-sky-300">
+                <p className="text-xl font-bold underline underline-offset-4 text-blue-700 mb-4">
+                  Like our Product 😎
+                </p>
+                <hr className="bg-white" />
+                <p className="w-full text-center text-blue-900 font-semibold flex flex-col md:flex-row justify-center items-center">
+                  This contribution is not forced but welcomed, as this will
+                  help us run this software for long time, Buy us coffee or tea
+                  or even a book at{" "}
+                  <a
+                    href="https://www.buymeacoffee.com/jsvigneshkanna"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="ml-4 bg-rose-500 p-2 rounded-3xl text-2xl text-white">
+                    <SiBuymeacoffee />
+                  </a>
+                </p>
+              </div>
             </div>
-      );
+            <div>
+              <div className="flex  flex-col justify-center items-center flex-wrap">
+                <div className=" my-5 mx-3 p-6 flex flex-col justify-center items-center md:w-4/5 md:mx-0p-6 px-5 overflow-auto border-blue-700 border-2 rounded-lg">
+                  <p className=" mt-8 mb-8 text-xl text-white underline underline-offset-4">
+                    Our Contributers 🥂
+                  </p>
+                  <div
+                    id="contributors"
+                    className="overflow-auto whitespace-nowrap w-auto flex flex-wrap justify-evenly gap-1 md:gap-8"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
 };
 
 export default AboutUs;
