@@ -1,0 +1,74 @@
+/* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
+
+const Document = () => {
+  return (
+    <div className=" bg-slate-300 text-black min-h-screen pt-32 md:pt-40 px-4 md:px-40 font-sans">
+      <h1 className="text-2xl border-b-2 border-teal-700 font-black">
+        Documentation 📝
+      </h1>
+      <div className="py-8 flex flex-col justify-center items-start">
+        <h3 className="text-center pb-4 font-bold text-xl text-red-900 underline underline-offset-4">
+          1. Feature video 📺
+        </h3>
+        <img
+          src="/feature_card_component.png"
+          alt="banner"
+          className=" w-full md:w-4/5 rounded-2xl h-96"
+        />
+      </div>
+
+      <div className="py-8 flex flex-col justify-center items-start">
+        <h3 className="text-left pb-6 font-bold text-xl text-red-900 underline underline-offset-4">
+          2. Type of components 💾
+        </h3>
+        <p className="text-left font-medium">
+          Currently we do have around 10 type of components
+        </p>
+        <p className="pt-4 font-medium">
+          Please check
+          <Link href="/components">
+            <span className="bg-sky-300 text-rose-700 px-3 py-2 rounded-lg ml-2 font-semibold">
+              here
+            </span>
+          </Link>
+        </p>
+      </div>
+
+      <div className="py-8 flex flex-col justify-center items-start pb-20">
+        <h3 className="text-left pb-6 font-bold text-xl text-red-900 underline underline-offset-4">
+          3. How to use this website ⚡
+        </h3>
+        <div className="text-left font-medium">
+          <p className="pb-3">
+            - You can search required components like &apos;Buttons, Forms,
+            Navbars, Alerts&apos; from the components page.
+          </p>
+          <p className="pb-3">
+            - Goto required component page and try different UI code from
+            embeded codepen.
+          </p>
+          <p className="pb-3">
+            - Goto required component page and try different UI code from
+            embeded codepen.
+          </p>
+          <p className="pb-3">
+            - For specific components like &apos;Navbars&apos; you can open/
+            close the HTML tab to simulate the mobile responsiveness
+          </p>
+          <p className="pb-3">
+            - Addition to that, we can open the specific codepen in new tab by
+            click &apos;EDIT ON CODEPEN&apos;
+          </p>
+          <p className="bg-rose-500 rounded-lg mt-4 py-2 px-4 text-white font-bold">
+            🚀 NOTE: It may take 2-3 second for codepen page to load as, the
+            page is heavy in size. Any contributors who can solve this issue can
+            connect by github
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Document;

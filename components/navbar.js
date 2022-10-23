@@ -29,13 +29,14 @@ const Navbar = () => {
           width={240}
           height={36}
           onClick={() => router.push("/")}
+          className=" cursor-pointer"
         />
         <div className="right_contents">
           <div className="nav_links">
             <Link href="/components">Components</Link>
           </div>
           <div className="nav_links">
-            <Link href="/">Documentation</Link>
+            <Link href="/documentation">Documentation</Link>
           </div>
           <div className="nav_links">
             <Link href="/aboutUs">About Us</Link>
@@ -50,7 +51,7 @@ const Navbar = () => {
           <Link href="/components">Components</Link>
         </div>
         <div className="nav_links">
-          <Link href="/">Documentation</Link>
+          <Link href="/documentation">Documentation</Link>
         </div>
         <div className="nav_links">
           <Link href="/aboutUs">About Us</Link>
