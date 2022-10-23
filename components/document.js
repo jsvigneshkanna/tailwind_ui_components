@@ -23,7 +23,7 @@ const Document = () => {
           2. Type of components 💾
         </h3>
         <p className="text-left font-medium">
-          Currently we have around 10 different types of components
+          Currently we do have around 10 type of components
         </p>
         <p className="pt-4 font-medium">
           Please check
@@ -40,27 +40,30 @@ const Document = () => {
           3. How to use this website ⚡
         </h3>
         <div className="text-left font-medium">
-          
           <p className="pb-3">
-            - You can search some of the required components like &apos;Buttons, Forms,
+            - You can search required components like &apos;Buttons, Forms,
             Navbars, Alerts&apos; from the components page.
           </p>
           <p className="pb-3">
-            - Go to the required component page and try different UI code from
+            - Goto required component page and try different UI code from
             embeded codepen.
           </p>
           <p className="pb-3">
-            - For specific components like &apos;Navbars&apos; you can open or
+            - Goto required component page and try different UI code from
+            embeded codepen.
+          </p>
+          <p className="pb-3">
+            - For specific components like &apos;Navbars&apos; you can open/
             close the HTML tab to simulate the mobile responsiveness
           </p>
           <p className="pb-3">
-            - In addition to that, we can open the specific codepen in a new tab by
-            clicking &apos;EDIT ON CODEPEN&apos;
+            - Addition to that, we can open the specific codepen in new tab by
+            click &apos;EDIT ON CODEPEN&apos;
           </p>
           <p className="bg-rose-500 rounded-lg mt-4 py-2 px-4 text-white font-bold">
-            🚀 NOTE: It may take 2-3 seconds for the codepen page to load as due to the
-            page being heavy in size. Any contributors who can solve this issue can
-            connect by Github
+            🚀 NOTE: It may take 2-3 second for codepen page to load as, the
+            page is heavy in size. Any contributors who can solve this issue can
+            connect by github
           </p>
         </div>
       </div>
