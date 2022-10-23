@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+/* eslint-disable @next/next/no-html-link-for-pages */
+
 import React from "react";
 
 const Footer = () => {
@@ -55,7 +57,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:underline hover:text-blue-300">
+                  <a href="/legal/license" className="hover:underline hover:text-blue-300">
                     License
                   </a>
                 </li>
