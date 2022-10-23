@@ -1,4 +1,3 @@
-import test from "./test_file";
 import testimonialCard from "./vertical_testimonial";
 import photoStarTestimonial from "./photo_star_testimonial";
 import horizontalTestimonial from "./horizontal_testimonial";
