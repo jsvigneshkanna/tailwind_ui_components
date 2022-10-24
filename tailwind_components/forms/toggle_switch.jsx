@@ -1,21 +1,24 @@
 import {stripIndent} from "react-codepen-prefill-embed";
 
 const ToggleSwitch = stripIndent`
-  <div class="flex justify-center items-center h-screen w-screen">
-    <label
-      for="toggle"
-      class="form-check-label inline-block text-gray-800 mr-2">
-      Toggle me.
-    </label>
+  <div class="flex h-screen items-center justify-center bg-sky-300">
+  <label for="toggle" class="mr-2 inline-block font-bold text-blue-800">
+    Toggle me when you are free 😁
+  </label>
 
-    <label
-      for="toggle"
-      class="grid justify-items-stretch relative items-center cursor-pointer w-14 h-7 rounded-full">
-      <input type="checkbox" id="toggle" class="sr-only peer" />
-      <span class="drop-shadow-md delay-150 bg-gray-200 w-full h-full absolute inline-block rounded-full peer-checked:bg-blue-500 duration-300"></span>
-      <span class="w-2/5 h-4/5 mx-1 absolute justify-self-start bg-gray-400 rounded-full peer-checked:bg-white peer-checked:justify-self-end duration-300"></span>
-    </label>
-  </div>
+  <label
+    for="toggle"
+    class="relative grid h-8 w-16 cursor-pointer items-center justify-items-stretch rounded-full"
+  >
+    <input type="checkbox" id="toggle" class="peer sr-only" />
+    <span
+      class="absolute inline-block h-full w-full rounded-full bg-red-100 drop-shadow-md delay-150 duration-300 peer-checked:bg-blue-500"
+    ></span>
+    <span
+      class="absolute mx-1 h-4/5 w-2/5 justify-self-start rounded-full bg-red-900 duration-300 peer-checked:justify-self-end peer-checked:bg-white"
+    ></span>
+  </label>
+</div>
 `;
 
 export default ToggleSwitch;

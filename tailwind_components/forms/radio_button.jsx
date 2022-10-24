@@ -1,27 +1,19 @@
-import { stripIndent } from "react-codepen-prefill-embed";
+import {stripIndent} from "react-codepen-prefill-embed";
 
 const Radio_button = stripIndent`
-<div class="flex justify-center items-center h-screen w-screen">
+<div class="flex h-screen items-center justify-center bg-sky-300">
   <div>
-    <div class="form-check">
-      <input class="form-check-input appearance-none rounded-full h-4 w-4 border border-blue-500 bg-white checked:border-4 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-      <label class="form-check-label inline-block text-gray-800" for="flexRadioDefault1">
-        Radio
-      </label>
+    <div class="mb-8">
+      <input class="form-check-input float-left mt-1 mr-2 h-4 w-4 cursor-pointer appearance-none rounded-full border border-blue-500 bg-white bg-contain bg-center bg-no-repeat align-top transition duration-200 checked:border-4 checked:border-red-600 focus:outline-none" type="radio" name="radio1" checked />
+      <label class="inline-block font-semibold text-gray-800" for="radio1"> Radio 1 </label>
     </div>
-    <div class="form-check">
-      <input class="form-check-input appearance-none rounded-full h-4 w-4 border border-blue-500 bg-white checked:border-4 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-      <label class="form-check-label inline-block text-gray-800" for="flexRadioDefault2">
-        Radio
-      </label>
-      <div class="form-check">
-      <input class="form-check-input appearance-none rounded-full h-4 w-4 border border-blue-500 bg-white checked:border-4 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-      <label class="form-check-label inline-block text-gray-800" for="flexRadioDefault1">
-        Radio
-      </label>
-      
+    <div class="mb-8">
+      <input class="form-check-input float-left mt-1 mr-2 h-4 w-4 cursor-pointer appearance-none rounded-full border border-blue-500 bg-white bg-contain bg-center bg-no-repeat align-top transition duration-200 checked:border-4 checked:border-green-600 focus:outline-none" type="radio" name="radio2" />
+      <label class="inline-block font-semibold text-gray-800" for="radio2"> Radio 2 </label>
     </div>
-    </div>
+    <div class="mb-8">
+      <input class="form-check-input float-left mt-1 mr-2 h-4 w-4 cursor-pointer appearance-none rounded-full border border-blue-500 bg-white bg-contain bg-center bg-no-repeat align-top transition duration-200 checked:border-4 checked:border-yellow-600 focus:outline-none" type="radio" name="radio3" />
+      <label class="inline-block font-semibold text-gray-800" for="radio3"> Radio 3 </label>
     </div>
   </div>
 </div>
