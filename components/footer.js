@@ -16,10 +16,10 @@ const Footer = () => {
                 src="/favicon/favicon.png"
                 className="md:mr-3 h-10 mr-1 rounded-3xl"
                 alt="FlowBite Logo"></img>
-              <span className="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="text-white self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white">
                 tailwind
               </span>
-              <span className="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-blue-500 ml-2">
+              <span className="text-white self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-blue-500 ml-2">
                 BOOTSRAP
               </span>
             </a>
