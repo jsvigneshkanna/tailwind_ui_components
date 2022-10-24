@@ -1,7 +1,7 @@
 import VerticalContactForm from "./vertical_contact_form";
 import contactForm from "./standard_contact_form";
 import SubsriptionContactForm from "./subscription_contact_form";
-import ImageContactForm from "./image_contact_form";
+import ImageContactForm from "./large_image_contact_form";
 
 const contactFormsCollection = [
   {componentName: "Vertical contact form", component: VerticalContactForm},
