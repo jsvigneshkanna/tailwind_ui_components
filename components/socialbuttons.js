@@ -36,9 +36,12 @@ const SocialButtons = () => {
             <i className="fab fa-github text-2xl leading-[60px] transition-all ease-out text-white"></i>
           </div>
           <span className="text-xl font-medium ml-2 leading-[65px] transition-all ease-out group-hover:text-[#333]">
-            <Link href="https://github.com/jsvigneshkanna/tailwind_ui_components">
+            <a
+              href="https://github.com/jsvigneshkanna"
+              target="_blank"
+              rel="noreferrer">
               Github
-            </Link>
+            </a>
           </span>
         </div>
       </div>
@@ -56,7 +59,12 @@ const SocialButtons = () => {
             <i className="fab fa-linkedin text-2xl leading-[60px] transition-all ease-out text-white"></i>
           </div>
           <span className="text-xl font-medium ml-2 leading-[65px] transition-all ease-out group-hover:text-[#0A66C2]">
-            <Link href="#">Linkedin</Link>
+            <a
+              href="https://www.linkedin.com/in/jsvigneshkanna/"
+              target="_blank"
+              rel="noreferrer">
+              Linkedin
+            </a>
           </span>
         </div>
       </div>
