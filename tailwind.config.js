@@ -13,13 +13,6 @@ module.exports = {
         poppins: ["poppins"],
       },
     },
-    screens: {
-      phone: {max: "299px"},
-      // => @media (max-width: 299px) { ... }
-
-      large: "300px",
-      // => @media (min-width: 300px) { ... }
-    },
   },
   plugins: [],
 };
