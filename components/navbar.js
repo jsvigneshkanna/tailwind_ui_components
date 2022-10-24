@@ -40,11 +40,15 @@ const Navbar = () => {
           <div className="nav_links">
             <Link href="/aboutUs">About Us</Link>
           </div>
+          <div className="nav_links">
+            <Link href="/contributors">Our contributors</Link>
+          </div>
         </div>
         <div className="flex sm:hidden hamburger" onClick={showMenu}>
           <p>{isMenuOpen ? <AiOutlineClose /> : <MdMenu />}</p>
         </div>
       </nav>
+
       <div className={displayMenu()}>
         <div className="nav_links">
           <Link href="/components">Components</Link>
@@ -54,6 +58,9 @@ const Navbar = () => {
         </div>
         <div className="nav_links">
           <Link href="/aboutUs">About Us</Link>
+        </div>
+        <div className="nav_links">
+          <Link href="/contributors">Our contributors</Link>
         </div>
       </div>
     </div>

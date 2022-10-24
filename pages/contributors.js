@@ -1,7 +1,6 @@
 import Head from "next/head";
 
 import Navbar from "../components/navbar";
-import AboutUs from "../components/aboutUs";
 import Footer from "../components/footer";
 import SocialButtons from "../components/socialbuttons";
 import Contributors from "../components/contributors";
@@ -43,7 +42,6 @@ export default function Home() {
 
       <div className=" bg-slate-100 w-full min-h-screen font-poppins">
         <Navbar />
-        <AboutUs />
         <Contributors />
         <div className="social_buttons">
           <SocialButtons />
