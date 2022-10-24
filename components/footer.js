@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
 import React from "react";
-
+import {FaGithub, FaDiscord} from "react-icons/fa"; 
 const Footer = () => {
   return (
     <div>
@@ -29,14 +29,14 @@ const Footer = () => {
               <h2 className="mb-4 text-xs md:text-lg font-semibold uppercase text-white underline underline-offset-2">
                 Follow us
               </h2>
-              <ul className="text-gray-200 text-xs md:text-lg">
-                <li className="mb-4">
+              <ul className="text-gray-200 text-xs md:text-lg flex items-center justify-center gap-2">
+                <li>
                   <a
                     href="https://github.com/jsvigneshkanna/tailwind_ui_components"
                     target="_blank"
                     rel="noreferrer"
-                    className="hover:underline hover:text-blue-300">
-                    Github
+                    className=" hover:text-blue-300 text-2xl">
+                    <FaGithub/>
                   </a>
                 </li>
                 <li>
@@ -44,8 +44,8 @@ const Footer = () => {
                     href="https://discord.com/channels/1031097107324620860/1031097107324620862"
                     target="_blank"
                     rel="noreferrer"
-                    className="hover:underline hover:text-blue-300">
-                    Discord
+                    className=" hover:text-blue-300 text-2xl">
+                    <FaDiscord/>
                   </a>
                 </li>
               </ul>

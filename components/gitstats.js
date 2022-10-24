@@ -15,10 +15,10 @@ const GitStats = () => {
 
   return (
     <a
-      className="gitstats_box"
+      className="gitstats_box "
       href="https://github.com/jsvigneshkanna/tailwind_ui_components"
-      target="__blank">
-      <div className="gitstats_fork">
+      target="__blank" rel="noreferrer">
+      <div className="gitstats_fork ">
         <TbGitFork className="mr-1" />
         <h2>{data ? data.forks : "Loading"}</h2>
       </div>
