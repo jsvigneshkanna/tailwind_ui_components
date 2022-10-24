@@ -1,7 +1,7 @@
 import {stripIndent} from "react-codepen-prefill-embed";
 
 const contactForm = stripIndent`
-<div class="flex h-screen w-full items-center justify-center bg-rose-300">
+<div class="flex h-full w-full items-center justify-center bg-rose-300">
   <div class="my-10 mx-5 rounded-xl border border-gray-200 bg-white shadow-md">
     <div class="flex flex-col items-center justify-center p-6 text-center">
       <h5 class="mb-1 px-4 font-bold tracking-tight text-gray-700">

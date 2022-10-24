@@ -2,7 +2,7 @@ import {stripIndent} from "react-codepen-prefill-embed";
 
 const horizontalTestimonial = stripIndent`
 <div class="flex h-screen w-screen items-center justify-center bg-sky-300">
-  <div class="h-64 w-96 max-w-sm rounded-xl border border-black bg-white shadow-lg shadow-red-400">
+  <div class="h-80 w-96 max-w-sm rounded-xl border border-black bg-white shadow-lg shadow-red-400">
     <div class="p-5 text-center">
       <ul class="flex">
         <div class="bg-blend-multiply">

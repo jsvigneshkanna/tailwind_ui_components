@@ -15,7 +15,7 @@ const Alert = () => {
       </Head>
       <Navbar />
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief bg-sky-200 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
+        <p className="codepen_brief bg-sky-200 text-blue-700 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
           Alerts are used in website due user actions 💭
         </p>
         {alertCollections.map((alert, index) => {

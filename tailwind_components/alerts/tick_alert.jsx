@@ -1,7 +1,7 @@
 import {stripIndent} from "react-codepen-prefill-embed";
 
 const tickAlert = stripIndent`
-<div class="h-screen bg-sky-300 p-4">
+<div class="h-full bg-sky-300 p-4 py-16">
   <div
     id="alert-border-1"
     class="mb-4 flex border-t-4 border-blue-500 bg-blue-100 p-4 dark:bg-blue-200"

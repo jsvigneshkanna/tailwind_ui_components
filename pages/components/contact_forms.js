@@ -16,7 +16,7 @@ const contactForms = () => {
       <Navbar />
 
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief bg-sky-200 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
+        <p className="codepen_brief bg-sky-200 text-blue-700 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
           As someone in facebook posted &apos;Helps you connect and share with
           people using contact forms&apos;, we are helping you with best
           designed contact forms in tailwindCSS 🍽️

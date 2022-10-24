@@ -15,7 +15,7 @@ const Badge = () => {
       </Head>
       <Navbar />
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief bg-sky-200 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
+        <p className="codepen_brief bg-sky-200 text-blue-700 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
           How cool is to have coloured and meaningfull badges near your image/
           cards/ testimonials. Sounds interesting, then why waiting to check
           inside 😎

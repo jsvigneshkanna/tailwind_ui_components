@@ -1,7 +1,7 @@
 import {stripIndent} from "react-codepen-prefill-embed";
 
 const productCard = stripIndent`
-<div class="h-screen bg-sky-300 px-8 pt-20">
+<div class="h-full bg-sky-300 px-8 py-16">
   <div
     class="my-10 w-64 max-w-sm rounded-xl border border-gray-200 bg-white shadow-md"
   >

@@ -15,7 +15,7 @@ const TestimonialCards = () => {
       </Head>
       <Navbar />
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief bg-sky-200 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
+        <p className="codepen_brief bg-sky-200 text-blue-700 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
           Still Guessing how can you showcase your testimonials(You do have 🤪).
           Dont worry if don&apos;t have testimonials or have no idea how to
           design it, click this card

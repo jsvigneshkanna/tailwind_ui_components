@@ -1,7 +1,7 @@
 import {stripIndent} from "react-codepen-prefill-embed";
 
 const basicCard = stripIndent`
-<div class="h-screen bg-sky-300 px-10 pt-20">
+<div class="h-full bg-sky-300 px-10 py-16">
   <div class="max-w-sm rounded-lg border px-8 py-8 border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800">
      <span class="flex gap-4 items-center py-4">
      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 text-white">

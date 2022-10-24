@@ -1,7 +1,7 @@
 import {stripIndent} from "react-codepen-prefill-embed";
 
 const verticalPricing = stripIndent`
-<div class="flex h-screen w-full items-center justify-center bg-sky-300">
+<div class="flex h-full py-6 w-full items-center justify-center bg-sky-300">
   <div
     class="my-5 w-64 max-w-sm rounded-xl border border-gray-200 bg-white shadow-md"
   >

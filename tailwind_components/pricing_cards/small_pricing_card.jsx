@@ -1,7 +1,7 @@
 import {stripIndent} from "react-codepen-prefill-embed";
 
 const smallPricingCard = stripIndent`
-<div class="flex h-screen w-full items-center justify-center bg-sky-300">
+<div class="flex h-full w-full items-center justify-center bg-sky-300">
   <div
     class="flex min-h-screen items-center justify-center overflow-hidden py-6 sm:py-12"
   >

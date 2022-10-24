@@ -16,9 +16,13 @@ const NavbarComponent = () => {
       <Navbar />
 
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief bg-sky-200 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
+        <p className="codepen_brief bg-sky-200 text-blue-700 md:mx-44 mx-4 px-4 mb-2 text-center py-4 rounded-2xl">
           Guess, IRL where no navbars in website which has 20 pages. This would
           rather increase the memory power in memorizing all the URLs 🤪
+        </p>
+        <p className="codepen_brief bg-rose-400 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl text-white">
+          NOTE: Kindly make the codepen result screen view port to 0.5x in
+          mobile devices
         </p>
         {navbarCollections.map((navbar, index) => {
           return (
