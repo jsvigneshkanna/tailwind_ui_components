@@ -48,7 +48,6 @@ const Footer = () => {
                     Discord
                   </a>
                 </li>
-                Link
               </ul>
             </div>
             <div>
@@ -58,7 +57,7 @@ const Footer = () => {
               <ul className="text-gray-200 text-xs md:text-base">
                 <li className="mb-4">
                   <Link
-                    href="/privacypolicy"
+                    href="/legal/privacypolicy"
                     className="hover:underline hover:text-blue-300">
                     Privacy Policy
                   </Link>
