@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
 
-import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -48,6 +48,7 @@ const Footer = () => {
                     Discord
                   </a>
                 </li>
+                Link
               </ul>
             </div>
             <div>
@@ -56,18 +57,18 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-200 text-xs md:text-base">
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="/privacypolicy"
                     className="hover:underline hover:text-blue-300">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/legal/license"
                     className="hover:underline hover:text-blue-300">
                     License
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
