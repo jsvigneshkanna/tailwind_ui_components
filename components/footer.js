@@ -6,15 +6,15 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className=" p-6 sm:p-6 bg-gradient-to-bl from-[#2a003c] to-[#010142]">
+      <footer className=" p-6 sm:p-6 bg-gradient-to-b from-[#310046] to-[#000057]">
         <div className="md:flex md:flex-row flex-col md:justify-between md:px-40 pt-0 md:pt-4">
           <div className="mb-4 md:mb-0 mt-4 md:mt-0">
             <a
               href="https://tailwindcsscomponents.vercel.app/"
               className="flex items-center justify-center">
               <img
-                src="/favi-tailwind.png"
-                className="md:mr-3 h-10 mr-1"
+                src="/favicon/favicon.png"
+                className="md:mr-3 h-10 mr-1 rounded-3xl"
                 alt="FlowBite Logo"></img>
               <span className="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white">
                 tailwind
@@ -73,7 +73,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="my-3 sm:mx-auto border-gray-400 lg:my-4" />
+        <hr className="my-6 sm:mx-auto border-gray-400  lg:my-4" />
         <div className="sm:flex sm:items-center sm:justify-between md:px-40 text-center">
           <span className="text-sm text-white sm:text-center">
             © 2022{" "}
