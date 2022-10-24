@@ -44,9 +44,6 @@ export default function License() {
       <div className=" legal_container w-full font-poppins">
         <Navbar />
         <LicenseContent />
-        <div className="social_buttons">
-          <SocialButtons />
-        </div>
         <Footer />
       </div>
     </>

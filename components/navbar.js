@@ -41,8 +41,8 @@ const Navbar = () => {
           <div className="nav_links">
             <Link href="/aboutUs">About Us</Link>
           </div>
-            <div className="nav_links">
-          <Link href="/faqs">FAQs</Link>
+          <div className="nav_links">
+            <Link href="/faqs">FAQs</Link>
           </div>
         </div>
         <div className="flex sm:hidden hamburger" onClick={showMenu}>
