@@ -12,7 +12,6 @@ import singleButton from "./single_button";
 import socialButton from "./solid_social_button1.jsx";
 import reportButton from "./report_button";
 import getStartedButton from "./get_started_button.jsx";
-import appleStoreButton1 from "./apple_store_button1.jsx"
 
 const buttonCollections = [
   {componentName: "Simple Button with above text", component: test1},
@@ -29,7 +28,6 @@ const buttonCollections = [
   {componentName: "Report Button", component: reportButton},
   {componentName: "Get Started Button", component: getStartedButton},
   {componentName: "Solid Arrow Buttons", component: solidArrowButtons},
-  {componentName: "Apple Store Button", component: appleStoreButton1},
 ];
 
 export default buttonCollections;
