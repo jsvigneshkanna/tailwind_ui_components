@@ -24,7 +24,7 @@ const Footer = () => {
               </span>
             </a>
           </div>
-          <div className="grid grid-cols-2 gap-12 md:gap-32 place-items-center">
+          <div className="grid grid-cols-2 gap-20 md:gap-32 place-items-center">
             <div>
               <h2 className="mb-4 text-xs md:text-lg font-semibold uppercase text-white underline underline-offset-2">
                 Follow us
