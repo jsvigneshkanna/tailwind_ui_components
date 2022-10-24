@@ -24,7 +24,7 @@ const googlestorebutton = stripIndent`
           <span>
             <i class="fa-brands fa-google-play text-4xl"></i>
           </span>
-          <a href="https://tailwindcsscomponents.vercel.app/">
+          <a href="https://tailwindcsscomponents.vercel.app/" target="_blank" rel="noreferrer">
             <p class="text-xs font-bold">Download on the</p>
             <p class="text-md">Google Play</p>
           </a>
@@ -39,7 +39,7 @@ const googlestorebutton = stripIndent`
           </span>
           <a
             class="block text-white"
-            href="https://tailwindcsscomponents.vercel.app/"
+            href="https://tailwindcsscomponents.vercel.app/" target="_blank" rel="noreferrer"
           >
             <p class="text-xs font-bold">Download on the</p>
             <p class="text-md">Google Play</p>

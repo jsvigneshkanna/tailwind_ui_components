@@ -8,7 +8,7 @@ const reportButton = stripIndent`
     <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
       <div class="inline-flex rounded-md shadow">
         <a
-          href="https://tailwindcsscomponents.vercel.app/"
+          href="https://tailwindcsscomponents.vercel.app/" target="_blank" rel="noreferrer"
           class="inline-flex items-center justify-center rounded-sm border border-transparent bg-indigo-700 px-5 py-3 text-base font-medium text-white hover:bg-red-300"
         >
           <span class="mx-2">

@@ -18,7 +18,7 @@ const getStartedButton = stripIndent`
         );
       "
     >
-      <a href="https://tailwindcsscomponents.vercel.app/" class="text-black">
+      <a href="https://tailwindcsscomponents.vercel.app/" target="_blank" rel="noreferrer" class="text-black">
         Get Started
       </a>
       <svg

@@ -21,16 +21,16 @@ const dropdownButton = stripIndent`
     </svg>
   </button>
   <div id="menu" class="flex flex-col bg-white drop-shadow-md">
-    <a class="px-5 py-3 hover:bg-gray-200 border-b border-gray-200" href="https://tailwindcsscomponents.vercel.app/"
+    <a class="px-5 py-3 hover:bg-gray-200 border-b border-gray-200" href="https://tailwindcsscomponents.vercel.app/" target="_blank" rel="noreferrer"
       >Option1</a
     >
-    <a class="px-5 py-3 hover:bg-gray-300 border-b border-gray-200" href="https://tailwindcsscomponents.vercel.app/"
+    <a class="px-5 py-3 hover:bg-gray-300 border-b border-gray-200" href="https://tailwindcsscomponents.vercel.app/" target="_blank" rel="noreferrer"
       >Option2</a
     >
-    <a class="px-5 py-3 hover:bg-gray-400 border-b border-gray-200" href="https://tailwindcsscomponents.vercel.app/"
+    <a class="px-5 py-3 hover:bg-gray-400 border-b border-gray-200" href="https://tailwindcsscomponents.vercel.app/" target="_blank" rel="noreferrer"
       >Option3</a
     >
-    <a class="px-5 py-3 hover:bg-gray-500" href="https://tailwindcsscomponents.vercel.app/">Option4</a>
+    <a class="px-5 py-3 hover:bg-gray-500" href="https://tailwindcsscomponents.vercel.app/" target="_blank" rel="noreferrer">Option4</a>
   </div>
 </div>
 

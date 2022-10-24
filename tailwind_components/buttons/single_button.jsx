@@ -8,7 +8,7 @@ const singleButton = stripIndent`
     <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
       <div class="inline-flex rounded-full shadow">
         <a
-          href="https://tailwindcsscomponents.vercel.app/"
+          href="https://tailwindcsscomponents.vercel.app/" target="_blank" rel="noreferrer"
           class="inline-flex items-center justify-center rounded-2xl border border-transparent bg-emerald-600 px-5 py-3 text-base font-medium text-red-800 hover:bg-green-500"
         >
           Learn More

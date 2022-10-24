@@ -7,7 +7,7 @@ const roundedScrollButton = stripIndent`
     <div class="inline-flex rounded-full border-2 border-black hover:border-gray-300">
         
     <a
-      href="https://tailwindcsscomponents.vercel.app/"
+      href="https://tailwindcsscomponents.vercel.app/" target="_blank" rel="noreferrer"
       class="inline-flex flex-col items-center justify-center rounded-full border border-transparent font-bold gap-1 w-28 h-28 bg-rose-400 hover:bg-gray-200">
       <span class="mx-2">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="4" stroke="currentColor" class="w-6 h-6">

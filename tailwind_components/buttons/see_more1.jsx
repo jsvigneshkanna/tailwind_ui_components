@@ -6,7 +6,7 @@ const seemore = stripIndent`
       <button
         class="bg-orange-200 hover:bg-orange-500 font-medium text-base border-transparent px-6 py-4 rounded-md flex flex-row items-center gap-4 text-blue-800"
       >
-        <a href="https://tailwindcsscomponents.vercel.app/"> See more </a>
+        <a href="https://tailwindcsscomponents.vercel.app/" target="_blank" rel="noreferrer"> See more </a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
