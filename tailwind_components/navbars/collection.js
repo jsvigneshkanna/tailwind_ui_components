@@ -5,6 +5,7 @@ import standard_mobile_navbar from "./standard_mobile_navbar";
 import searchNav from "./search_navbar";
 import standardLogoNav from "./standard_logo_navbar";
 import centerDropdownNav from "./center_dropdown_navbar";
+import navbarSocialIcon from "./navbar_social_icons";
 
 const navbarCollections = [
   {componentName: "Standard Logo Navbar", component: standardLogoNav},
@@ -14,6 +15,7 @@ const navbarCollections = [
   {componentName: "Standard Mobile Navbar", component: standard_mobile_navbar},
   {componentName: "Search Navbar", component: searchNav},
   {componentName: "Center Dropdown Navbar", component: centerDropdownNav},
+  {componentName: "Navbar Social Icons", component: navbarSocialIcon},
 ];
 
 export default navbarCollections;
