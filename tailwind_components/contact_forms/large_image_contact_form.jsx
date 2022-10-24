@@ -14,7 +14,7 @@ const ImageContactForm = stripIndent`
 
     <div class="flex flex-wrap">
       <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12 mb-12">
-        <img src="https://res.cloudinary.com/sarveshp46/image/upload/v1666605059/Hero-Contact-Image_b6pz9m.svg"/>
+        <img src="https://westward360.com/wp-content/uploads/2021/01/Hero-Contact-Image.svg"/>
       </div>
       <div class="grow-0 shrink-0 basis-auto lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
         <form>
