@@ -1,4 +1,4 @@
-import test1 from "./test1_file";
+import test1 from "./simple_text_button";
 import dropdownButton from "./rectangle_dropdown_button";
 import see_more1 from "./see_more1";
 import downloadnow from "./download_now1.jsx";
