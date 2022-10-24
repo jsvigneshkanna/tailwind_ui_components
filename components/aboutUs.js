@@ -42,22 +42,24 @@ const AboutUs = () => {
       ) : (
         <div className="banner">
           <div>
-            <div class="w-full flex justify-evenly flex-wrap">
-              <div class="w-5/12 my-5 p-2 m border-white border-2 rounded">
-                <p class="w-full text-xl  text-white">Our website motivation</p>
-                <hr class="bg-white" />
-                <p class="w-full text-white">
+            <div className="w-full flex justify-evenly flex-wrap">
+              <div className="w-5/12 my-5 p-2 m border-white border-2 rounded">
+                <p className="w-full text-xl  text-white">
+                  Our website motivation
+                </p>
+                <hr className="bg-white" />
+                <p className="w-full text-white">
                   We do know tailwind css is an emerging CSS framework which
                   makes our website/ app unique without styling compared to
                   other market bootstraps.
                 </p>
               </div>
-              <div class="w-5/12 my-5 p-2 m border-white border-2 rounded">
-                <p class="w-full text-xl text-white">
+              <div className="w-5/12 my-5 p-2 m border-white border-2 rounded">
+                <p className="w-full text-xl text-white">
                   Solution we are providing
                 </p>
-                <hr class="bg-white" />
-                <p class="w-full text-white">
+                <hr className="bg-white" />
+                <p className="w-full text-white">
                   You can get almost all layouts and components built under
                   Tailwind CSS, and the best part is we can play around with
                   them in inbuilt code editor and copy the codebase too for your
