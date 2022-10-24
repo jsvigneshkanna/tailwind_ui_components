@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <div>
       <footer className=" p-6 sm:p-6 bg-gradient-to-bl from-[#2a003c] to-[#010142]">
-        <div className="md:flex md:flex-row flex-col md:justify-between md:px-40 pt-0 md:pt-8">
-          <div className="mb-6 md:mb-0 mt-6 md:mt-0">
+        <div className="md:flex md:flex-row flex-col md:justify-between md:px-40 pt-0 md:pt-4">
+          <div className="mb-4 md:mb-0 mt-4 md:mt-0">
             <a
               href="https://tailwindcsscomponents.vercel.app/"
               className="flex items-center justify-center">
@@ -29,7 +29,7 @@ const Footer = () => {
               <h2 className="mb-4 text-xs md:text-lg font-semibold uppercase text-white underline underline-offset-2">
                 Follow us
               </h2>
-              <ul className="text-gray-200 text-xs md:text-lg">
+              <ul className="text-gray-200 text-xs md:text-base">
                 <li className="mb-4">
                   <a
                     href="https://github.com/jsvigneshkanna/tailwind_ui_components"
@@ -54,7 +54,7 @@ const Footer = () => {
               <h2 className="mb-4 text-xs md:text-lg font-semibold uppercase text-white underline underline-offset-2">
                 Legal
               </h2>
-              <ul className="text-gray-200 text-xs md:text-lg">
+              <ul className="text-gray-200 text-xs md:text-base">
                 <li className="mb-4">
                   <a
                     href="/privacypolicy"
@@ -73,7 +73,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="my-6 sm:mx-auto border-gray-400 lg:my-8" />
+        <hr className="my-3 sm:mx-auto border-gray-400 lg:my-4" />
         <div className="sm:flex sm:items-center sm:justify-between md:px-40 text-center">
           <span className="text-sm text-white sm:text-center">
             © 2022{" "}
