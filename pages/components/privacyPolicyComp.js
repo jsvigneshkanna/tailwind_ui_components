@@ -47,7 +47,7 @@ const PrivacyPolicyComp = () => {
                     <p>
                       When you visit the Website our servers automatically
                       record information that your browser sends. This data may
-                      include information such as your device's IP address,
+                      include information such as your device&apos;s IP address,
                       browser type and version, operating system type and
                       version, language preferences or the webpage you were
                       visiting before you came to our Website, pages of our
@@ -112,7 +112,7 @@ const PrivacyPolicyComp = () => {
                       children under the age of 13. If you are under the age of
                       13, please do not submit any Personal Information through
                       our Website. We encourage parents and legal guardians to
-                      monitor their children's Internet usage and to help
+                      monitor their children&apos;s Internet usage and to help
                       enforce this Policy by instructing their children never to
                       provide Personal Information through our Website without
                       their permission. If you have reason to believe that a
