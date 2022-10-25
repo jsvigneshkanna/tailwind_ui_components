@@ -10,7 +10,7 @@ function Contributor(props) {
   }, []);
 
   return (
-    <div className="flex items-center gap-4 p-4 border border-x-0 border-t-0 mb-4 md:w-56  md:border border-gray-200 md:p-3 md:m-4 md:flex-col">
+    <div className="flex items-center gap-4 p-4 border border-x-0 border-t-0 mb-4 border-orange-200 md:w-56 md:border md:rounded-2xl md:p-3 md:m-4 md:flex-col">
       <img
         className=" w-12 h-12 rounded-full md:w-28 md:h-28"
         src={socials.avatar_url}
