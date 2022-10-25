@@ -5,11 +5,11 @@ import Link from "next/link";
 
 const AboutUs = () => {
   const [loading, setloading] = useState(true);
-  // useEffect(() => {
-  //       setTimeout(() => {
-  //             setloading(false);
-  //       }, 600);
-  // }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      setloading(false);
+    }, 600);
+  }, []);
   // fetch('https://api.github.com/repos/jsvigneshkanna/tailwind_ui_components/contributors').then(res => res.json()).then(res => {
   //       if (document.getElementById('contributors').innerHTML == "") {
   //             for (var xx = 0; xx < res.length; xx++) {
