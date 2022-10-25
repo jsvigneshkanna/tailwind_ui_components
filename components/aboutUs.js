@@ -88,10 +88,16 @@ const AboutUs = () => {
             </div>
             <div>
               <div className="flex  flex-col justify-center items-center flex-wrap">
-                <div className=" my-5 mx-3 p-6 flex flex-col justify-center items-center md:w-4/5 md:mx-0p-6 px-5 overflow-auto border-blue-700 border-2 rounded-lg">
-                  <Link href="/contributors">
-                    <p className=" mt-8 mb-8 text-xl text-white underline underline-offset-4">
+                <div className=" my-5 mx-3 p-6 flex flex-col justify-center items-center md:w-4/5 md:mx-0p-6 px-5 overflow-auto border-blue-700 border-2 rounded-lg bg-sky-300">
+                  <Link href="/contributors" className="cursor-pointer">
+                    <p className=" text-xl font-bold underline underline-offset-4 text-blue-700 mb-4">
                       Check out our cool contributors
+                    </p>
+                    <hr className="bg-white" />
+                    <p className="w-full text-center text-blue-900 font-semibold flex flex-col md:flex-row justify-center items-center">
+                      We currently have around 50+ open source contributors who have contributed in codebase through different ways from 
+                      correcting the UI components to adding this whole new link ❤️‍🔥. Check our contributors in next page, and you too can
+                      become a part of our cool 🥸 community. 
                     </p>
                   </Link>
                 </div>
