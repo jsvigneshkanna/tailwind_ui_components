@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         "alert-text": "#d4975c",
       },
+      screens: {
+        'md': '899px'
+      },
       fontFamily: {
         poppins: ["poppins"],
       },
