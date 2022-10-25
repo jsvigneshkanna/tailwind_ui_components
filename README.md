@@ -5,17 +5,17 @@
 [![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/issues) [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/network/members) [![GitHub stars](https://img.shields.io/github/stars/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/stargazers)
 
 </div>
-
+---
 **Homepage**
-![image](https://user-images.githubusercontent.com/42484705/197400691-d6bae1a1-8603-4b31-92e5-f24aaf966c14.png)
+![image](https://user-images.githubusercontent.com/42484705/197696692-560c05b1-5207-41c7-adc9-d10fe403ece2.png)
 
 **Components selection page**
-![image](https://user-images.githubusercontent.com/42484705/197355398-e36d1cb5-15aa-4c47-b5dc-e56c5f7f630b.png)
+![image](https://user-images.githubusercontent.com/42484705/197696771-9aaf4f6d-1928-4d66-9d2b-01ad479d289a.png)
 
 **Codepen page**
-![image](https://user-images.githubusercontent.com/42484705/197355431-718855e6-66ab-4229-b5bb-db3fda5956ff.png)
+![image](https://user-images.githubusercontent.com/42484705/197697009-132c44c8-29b3-40f7-98d0-c54f0aa8a33b.png)
 
-
+---
 # Motivation
 
 We do know tailwind css is an emerging CSS framework which makes our website/ app unique without styling compared to other market bootstraps
