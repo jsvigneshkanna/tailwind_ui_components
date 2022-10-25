@@ -38,8 +38,7 @@ const Contributors = () => {
         </div>
       ) : (
         <div className="banner">
-          <div className="banner_container">
-            <div>
+            <div className="mx-4 md:mx-40">
               <p className="text-3xl text-white font-bold">Our contributors:</p>
               <div className="p-6 px-5"></div>
               <div
@@ -51,7 +50,6 @@ const Contributors = () => {
               </div>
             </div>
           </div>
-        </div>
       )}
     </div>
   );
