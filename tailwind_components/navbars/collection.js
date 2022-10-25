@@ -11,7 +11,6 @@ const navbarCollections = [
   {componentName: "Standard Logo Navbar", component: standardLogoNav},
   {componentName: "Animated Navbar", component: animated_navbar},
   {componentName: "Mobile NavBar Icons", component: mobile_nav_icons},
-  {componentName: "Mobile Nav DropDown ", component: mobile_nav_dropdown},
   {componentName: "Standard Mobile Navbar", component: standard_mobile_navbar},
   {componentName: "Search Navbar", component: searchNav},
   {componentName: "Center Dropdown Navbar", component: centerDropdownNav},
