@@ -9,14 +9,14 @@ const FeatureCards = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI Feature Card Components</title>
+        <title>Tailwind UI | Feature Card</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
-        <link rel="icon" href="/favi-tailwind.png" type="image/png" />
+        <link rel="icon" href="/favicon/favicon.png" type="image/png" />
       </Head>
       <Navbar />
 
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief bg-sky-200 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
+        <p className="codepen_brief bg-sky-200 text-blue-700 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
           In late 90s, we do have visiting cards to showcase our portfolio. But
           now, we are in 20th century where 240px X 240px of div is enough for
           showcasing our portfolio 💳

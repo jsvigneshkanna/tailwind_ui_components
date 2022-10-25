@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 const {Octokit} = require("@octokit/rest");
 
 export default async (req, res) => {

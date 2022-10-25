@@ -3,7 +3,7 @@ import infoAlert from "./info_alert";
 import tickAlert from "./tick_alert";
 import report_alert from "./report_alert";
 import alarmAlert from "./alarm_alert";
-
+import sample_alert from "./sample_alert";
 
 const alertCollections = [
   {componentName: "Info Alert", component: infoAlert},

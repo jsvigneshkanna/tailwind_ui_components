@@ -6,15 +6,18 @@
 
 </div>
 
+---
+
 **Homepage**
-![image](https://user-images.githubusercontent.com/42484705/197355352-1becb11c-3e03-426c-b20c-5c14db6ac9ee.png)
+![image](https://user-images.githubusercontent.com/42484705/197696692-560c05b1-5207-41c7-adc9-d10fe403ece2.png)
 
 **Components selection page**
-![image](https://user-images.githubusercontent.com/42484705/197355398-e36d1cb5-15aa-4c47-b5dc-e56c5f7f630b.png)
+![image](https://user-images.githubusercontent.com/42484705/197696771-9aaf4f6d-1928-4d66-9d2b-01ad479d289a.png)
 
 **Codepen page**
-![image](https://user-images.githubusercontent.com/42484705/197355431-718855e6-66ab-4229-b5bb-db3fda5956ff.png)
+![image](https://user-images.githubusercontent.com/42484705/197697009-132c44c8-29b3-40f7-98d0-c54f0aa8a33b.png)
 
+---
 
 # Motivation
 
@@ -53,7 +56,7 @@ Buy us coffee or tea or even a book at [buymeacoffee 🍵](https://www.buymeacof
  `git commit -m "commit message"`
  8. Push the changes to origin
  `git push origin <branch_name>`
- 9. After that create new Pull Request in your GitHub account. (It should appeared after commits were pushed)
+ 9. After that create new Pull Request in your GitHub account. (It should appear after commits were pushed)
 
 # Contributors 🎉
 

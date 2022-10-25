@@ -10,8 +10,8 @@ export default function License() {
   return (
     <>
       <Head>
-        <title>Tailwind Bootstrap</title>
-        <link rel="icon" href="/favi-tailwind.png" type="image/png" />
+        <title>Tailwind Bootstrap | Legal</title>
+        <link rel="icon" href="/favicon/favicon.png" type="image/png" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -44,9 +44,6 @@ export default function License() {
       <div className=" legal_container w-full font-poppins">
         <Navbar />
         <LicenseContent />
-        <div className="social_buttons">
-          <SocialButtons />
-        </div>
         <Footer />
       </div>
     </>
