@@ -2,6 +2,7 @@
 import {useState, useEffect} from "react";
 import {BallTriangle} from "react-loader-spinner";
 import {SiBuymeacoffee} from "react-icons/si";
+import Link from "next/link";
 
 const AboutUs = () => {
   const [loading, setloading] = useState(true);
@@ -88,12 +89,11 @@ const AboutUs = () => {
             <div>
               <div className="flex  flex-col justify-center items-center flex-wrap">
                 <div className=" my-5 mx-3 p-6 flex flex-col justify-center items-center md:w-4/5 md:mx-0p-6 px-5 overflow-auto border-blue-700 border-2 rounded-lg">
-                  <p className=" mt-8 mb-8 text-xl text-white underline underline-offset-4">
-                    Our Contributers 🥂
-                  </p>
-                  <div
-                    id="contributors"
-                    className="overflow-auto whitespace-nowrap w-auto flex flex-wrap justify-evenly gap-1 md:gap-8"></div>
+                  <Link href="/contributors">
+                    <p className=" mt-8 mb-8 text-xl text-white underline underline-offset-4">
+                      Check out our cool contributors
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>
