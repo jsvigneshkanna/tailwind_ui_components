@@ -49,6 +49,7 @@ const Navbar = () => {
           <p>{isMenuOpen ? <AiOutlineClose /> : <MdMenu />}</p>
         </div>
       </nav>
+
       <div className={displayMenu()}>
         <div className="nav_links">
           <Link href="/components">Components</Link>

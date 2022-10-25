@@ -1,7 +1,6 @@
 import Head from "next/head";
 
 import Navbar from "../components/navbar";
-import AboutUs from "../components/aboutUs";
 import Footer from "../components/footer";
 import SocialButtons from "../components/socialbuttons";
 import Contributors from "../components/contributors";
@@ -10,8 +9,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Tailwind Bootstrap | About US</title>
-        <link rel="icon" href="/favicon/favicon.png" type="image/png" />
+        <title>Tailwind Bootstrap | Contributors</title>
+        <link rel="icon" href="/favi-tailwind.png" type="image/png" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -43,7 +42,7 @@ export default function Home() {
 
       <div className=" bg-slate-100 w-full min-h-screen font-poppins">
         <Navbar />
-        <AboutUs />
+        <Contributors />
         <div className="social_buttons">
           <SocialButtons />
         </div>
