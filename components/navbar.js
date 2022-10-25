@@ -45,7 +45,7 @@ const Navbar = () => {
             <Link href="/faqs">FAQs</Link>
           </div>
         </div>
-        <div className="flex md:hidden hamburger" onClick={showMenu}>
+        <div className="hamburger" onClick={showMenu}>
           <p>{isMenuOpen ? <AiOutlineClose /> : <MdMenu />}</p>
         </div>
       </nav>

@@ -76,3 +76,9 @@ nav {
     gap: 8px;
   }
 }
+
+@media (min-width: 899px) {
+  .hamburger {
+    display: none;
+  }
+}
