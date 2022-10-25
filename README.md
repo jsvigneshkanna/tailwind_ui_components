@@ -56,7 +56,7 @@ Buy us coffee or tea or even a book at [buymeacoffee 🍵](https://www.buymeacof
  `git commit -m "commit message"`
  8. Push the changes to origin
  `git push origin <branch_name>`
- 9. After that create new Pull Request in your GitHub account. (It should appeared after commits were pushed)
+ 9. After that create new Pull Request in your GitHub account. (It should appear after commits were pushed)
 
 # Contributors 🎉
 
