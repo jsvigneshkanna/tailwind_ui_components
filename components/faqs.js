@@ -16,7 +16,7 @@ const FAQs = () => {
         },
         q3: {
           qus: "What all components are there in this website",
-          ans: 'There are a lot of components on this website, you can access them from <a href="/components" target="_blank" rel="noreferrer" class="text-blue-700">Here</a>',
+          ans: 'There are lots of components such as Button, Form, Feature Card etc. which can save lot of time for a front end dev. you can access them from <a href="/components" target="_blank" rel="noreferrer" class="text-blue-700">Here</a>',
         },
         q4: {
           qus: "Can we play around with tailwindcss codes",

@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   const displayMenu = () => {
     if (isMenuOpen) {
-      return "flex sm:hidden flex-col justify-center items-center ";
+      return "flex sm:hidden flex-col justify-center items-center gap-2 my-2";
     } else {
       return "hidden";
     }
