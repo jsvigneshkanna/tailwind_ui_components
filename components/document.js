@@ -8,14 +8,14 @@ const Document = () => {
         Documentation 📝
       </h1>
       <div className="py-8 flex flex-col justify-center items-start">
-        <h3 className="text-center pb-4 font-bold text-xl text-red-900 underline underline-offset-4">
+        <h3 className="text-center pb-8 font-bold text-xl text-red-900 underline underline-offset-4">
           1. Feature video 📺
         </h3>
-        <img
-          src="/feature_card_component.png"
-          alt="banner"
-          className=" w-full md:w-4/5 rounded-2xl h-96"
-        />
+        <video
+          className="w-auto rounded-3xl h-auto border-2 border-rose-500 shadow-xl shadow-blue-300"
+          controls>
+          <source src="/tailwind_bootstrap_docs.mkv" type="video/mp4"></source>
+        </video>
       </div>
 
       <div className="py-8 flex flex-col justify-center items-start">
