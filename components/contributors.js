@@ -39,7 +39,7 @@ const Contributors = () => {
       ) : (
         <div className="banner">
             <div className="mx-4 md:mx-40">
-              <p className="text-3xl text-white font-bold">Our contributors:</p>
+              <p className="text-3xl text-white font-bold text-center ">Our contributors:</p>
               <div className="p-6 px-5"></div>
               <div
                 id="contributors"
