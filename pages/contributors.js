@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Tailwind Bootstrap</title>
+        <title>Tailwind Bootstrap | Contributors</title>
         <link rel="icon" href="/favi-tailwind.png" type="image/png" />
         <link
           rel="stylesheet"
