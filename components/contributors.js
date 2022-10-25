@@ -38,18 +38,21 @@ const Contributors = () => {
         </div>
       ) : (
         <div className="banner">
-            <div className="mx-4 md:mx-40">
-              <p className="text-3xl text-white font-bold text-center ">Our contributors:</p>
-              <div className="p-6 px-5"></div>
-              <div
-                id="contributors"
-                className="max-w-sm relative mx-auto dark:highlight-white/5 shadow-lg ring-1 ring-black/5 rounded-xl flex flex-col   md:max-w-5xl md:overflow-auto md:w-auto md:flex md:flex-row md:flex-wrap md:justify-evenly ">
-                {contributors.map((contributor, idx) => (
-                  <Contributor key={idx} contributor={contributor} />
-                ))}
-              </div>
+          <div className="mx-4 md:mx-40">
+            <p className="text-3xl text-white font-bold text-center ">
+              Our contributors:
+            </p>
+            <div className="p-6 px-5"></div>
+            <div
+              id="contributors"
+              className="max-w-sm relative mx-auto dark:highlight-white/5 shadow-lg ring-1 ring-black/5 rounded-xl flex flex-col   md:max-w-5xl md:overflow-auto md:w-auto md:flex md:flex-row md:flex-wrap md:justify-evenly ">
+              {console.log("checking, ", contributors)}
+              {contributors.map((contributor, idx) => (
+                <Contributor key={idx} contributor={contributor} />
+              ))}
             </div>
           </div>
+        </div>
       )}
     </div>
   );
