@@ -5,7 +5,9 @@
 [![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/issues) [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/network/members) [![GitHub stars](https://img.shields.io/github/stars/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/stargazers)
 
 </div>
+
 ---
+
 **Homepage**
 ![image](https://user-images.githubusercontent.com/42484705/197696692-560c05b1-5207-41c7-adc9-d10fe403ece2.png)
 
@@ -16,6 +18,7 @@
 ![image](https://user-images.githubusercontent.com/42484705/197697009-132c44c8-29b3-40f7-98d0-c54f0aa8a33b.png)
 
 ---
+
 # Motivation
 
 We do know tailwind css is an emerging CSS framework which makes our website/ app unique without styling compared to other market bootstraps
