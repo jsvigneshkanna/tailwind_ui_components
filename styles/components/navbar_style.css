@@ -54,10 +54,10 @@ nav {
 @media (max-width: 899px) {
   .nav_links {
     padding: 12px;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
   }
   .nav_links:nth-child(1) {
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
   }
   .nav_container {
     width: 96%;

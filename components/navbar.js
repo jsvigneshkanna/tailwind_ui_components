@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   const displayMenu = () => {
     if (isMenuOpen) {
-      return "small-screen-header flex flex-col justify-center items-center ";
+      return "flex small-screen-header flex-col justify-center items-center gap-2 my-2";
     } else {
       return "hidden";
     }
@@ -32,23 +32,24 @@ const Navbar = () => {
           className=" cursor-pointer"
         />
         <div className="right_contents">
-          <div className="nav_links">
-            <Link href="/components">Components</Link>
-          </div>
-          <div className="nav_links">
-            <Link href="/documentation">Documentation</Link>
-          </div>
-          <div className="nav_links">
-            <Link href="/aboutUs">About Us</Link>
-          </div>
-          <div className="nav_links">
-            <Link href="/faqs">FAQs</Link>
-          </div>
+          <Link href="/components">
+            <div role="button" className="nav_links">Components</div>
+          </Link>
+          <Link href="/documentation">
+            <div role="button" className="nav_links">Documentation</div>
+          </Link>
+          <Link href="/aboutUs">
+            <div role="button" className="nav_links">About Us</div>
+          </Link>
+          <Link href="/faqs">
+            <div role="button" className="nav_links">FAQs</div>
+          </Link>
         </div>
         <div className="hamburger" onClick={showMenu}>
           <p>{isMenuOpen ? <AiOutlineClose /> : <MdMenu />}</p>
         </div>
       </nav>
+
       <div className={displayMenu()}>
         <div className="nav_links">
           <Link href="/components">Components</Link>
