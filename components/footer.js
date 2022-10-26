@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <div>
       <footer className=" p-6 sm:p-6 bg-gradient-to-b from-[#310046] to-[#000057]">
-        <div className="md:flex md:flex-row flex-col md:justify-between md:px-40 pt-0 md:pt-4">
-          <div className="mb-4 md:mb-0 mt-4 md:mt-0">
+        <div className="lg:flex lg:flex-row flex-col lg:justify-between lg:px-20 lg:pt-2 md:px-40 pt-0 md:pt-4">
+          <div className="mb-4 lg:mb-2 mt-4 md:mt-0">
             <a
               href="https://tailwindcsscomponents.vercel.app/"
               className="flex items-center justify-center">
