@@ -5,6 +5,7 @@ import {MdMenu} from "react-icons/md";
 import {AiOutlineClose} from "react-icons/ai";
 import {useState} from "react";
 import {useRouter} from "next/router";
+import animated_navbar from "../tailwind_components/navbars/animated_navbar";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,6 +22,7 @@ const Navbar = () => {
     }
   };
   return (
+    <>
     <div className="nav_container font-poppins">
       <nav>
         <Image
@@ -32,7 +34,7 @@ const Navbar = () => {
         />
         <div className="right_contents">
           <div className="nav_links">
-            <Link href="/components">Components</Link>
+            <Link href="/components">Composdnents</Link>
           </div>
           <div className="nav_links">
             <Link href="/">Documentation</Link>
@@ -57,6 +59,10 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+
+    <animated_navbar/>
+
+    </>
   );
 };
 
