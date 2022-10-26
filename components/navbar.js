@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   const displayMenu = () => {
     if (isMenuOpen) {
-      return "flex sm:hidden flex-col justify-center items-center gap-2 my-2";
+      return "flex small-screen-header flex-col justify-center items-center gap-2 my-2";
     } else {
       return "hidden";
     }
@@ -45,7 +45,7 @@ const Navbar = () => {
             <div role="button" className="nav_links">FAQs</div>
           </Link>
         </div>
-        <div className="flex sm:hidden hamburger" onClick={showMenu}>
+        <div className="hamburger" onClick={showMenu}>
           <p>{isMenuOpen ? <AiOutlineClose /> : <MdMenu />}</p>
         </div>
       </nav>

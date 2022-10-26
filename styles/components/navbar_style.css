@@ -45,13 +45,13 @@ nav {
   background-color: rgba(118, 14, 216, 0.501);
   border-radius: 40px;
 }
-@media (max-width: 640px) {
+@media (max-width: 899px) {
   .right_contents {
     display: none;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 899px) {
   .nav_links {
     padding: 12px;
     /* margin-bottom: 24px; */
@@ -70,9 +70,21 @@ nav {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 899px) {
   .nav_container nav div {
     flex-direction: column;
     gap: 8px;
+  }
+}
+
+@media (min-width: 899px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (min-width: 899px) {
+  .small-screen-header {
+    display: none;
   }
 }
