@@ -6,15 +6,18 @@
 
 </div>
 
-Homepage
-![image](https://user-images.githubusercontent.com/42484705/196957568-cf73a4b6-3d1a-40dd-9452-fe73e612f5a0.png)
+---
 
-Components selection page
-![image](https://user-images.githubusercontent.com/42484705/196957666-431c5064-b834-4612-91f1-1e18f0df523c.png)
+**Homepage**
+![image](https://user-images.githubusercontent.com/42484705/197696692-560c05b1-5207-41c7-adc9-d10fe403ece2.png)
 
-Codepen page
-![image](https://user-images.githubusercontent.com/42484705/196957932-608baf1a-8b1b-4686-b534-fc88e67d04f8.png)
+**Components selection page**
+![image](https://user-images.githubusercontent.com/42484705/197696771-9aaf4f6d-1928-4d66-9d2b-01ad479d289a.png)
 
+**Codepen page**
+![image](https://user-images.githubusercontent.com/42484705/197697009-132c44c8-29b3-40f7-98d0-c54f0aa8a33b.png)
+
+---
 
 # Motivation
 
@@ -35,19 +38,6 @@ Please follow the [contributing guide](./CONTRIBUTING.md) for this repo. Anythin
 This contribution is not forced but welcomed, as this will help us run this software for long time
 Buy us coffee or tea or even a book at [buymeacoffee 🍵](https://www.buymeacoffee.com/jsvigneshkanna?new=1)
 
-# Contributors 🎉
-
-These people are sole backbone for this software. Want to get place in below hall of fame? join our community
-
-<a href="https://github.com/jsvigneshkanna/tailwind_ui_components/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jsvigneshkanna/tailwind_ui_components" />
-</a>
-
-<br>
-<div align="center">
-Show some ❤️ by starring this awesome repository!
-</div>
-
 # Getting started to contribute/use
 
  1. Fork the repository from [Repository](https://github.com/jsvigneshkanna/tailwind_ui_components). Just click at `fork` icon to create a fork-repository in your GitHub. In your local machine clone the forked repository with command and go to your repository
@@ -66,4 +56,17 @@ Show some ❤️ by starring this awesome repository!
  `git commit -m "commit message"`
  8. Push the changes to origin
  `git push origin <branch_name>`
- 9. After that create new Pull Request in your GitHub account. (It should appeared after commits were pushed)
+ 9. After that create new Pull Request in your GitHub account. (It should appear after commits were pushed)
+
+# Contributors 🎉
+
+These people are sole backbone for this software. Want to get place in below hall of fame? join our community
+
+<a href="https://github.com/jsvigneshkanna/tailwind_ui_components/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jsvigneshkanna/tailwind_ui_components" />
+</a>
+
+<br>
+<div align="center">
+Show some ❤️ by starring this awesome repository!
+</div>

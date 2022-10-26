@@ -1,22 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Navbar from "../../components/navbar";
-import {useRouter} from "next/router";
 import Codepen from "../../components/codepen";
 import badgeCollection from "../../tailwind_components/badges/collection";
+import Footer from "../../components/footer";
 
 const Badge = () => {
   return (
     <div>
       <Head>
-        <title>Tailwind UI Badge Components</title>
+        <title>Tailwind UI | Badges</title>
         <meta name="description" content="TailwindCSS ui component bootstrap" />
-        <link rel="icon" href="/favi-tailwind.png" type="image/png" />
+        <link rel="icon" href="/favicon/favicon.png" type="image/png" />
       </Head>
       <Navbar />
       <div className="codepen_page font-poppins">
-        <p className="codepen_brief">
-          How cool is to have coloured and meaningfull badges near your image/
+        <p className="codepen_brief bg-sky-200 text-blue-700 md:mx-44 mx-4 px-4 mb-12 text-center py-4 rounded-2xl">
+          How cool is to have coloured and meaningful badges near your image/
           cards/ testimonials. Sounds interesting, then why waiting to check
           inside 😎
         </p>
@@ -29,6 +29,7 @@ const Badge = () => {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 };

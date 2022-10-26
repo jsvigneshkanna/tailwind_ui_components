@@ -1,17 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
-import {useState, useRef, useEffect} from "react";
-import {FaPrayingHands} from "react-icons/fa";
+import {useState, useEffect} from "react";
 import {BallTriangle} from "react-loader-spinner";
-import SocialButtons from "./socialbuttons";
+import Link from "next/link";
 
 const Homebanner = () => {
-  const [loading, setloading] = useState(false);
+  const [loading, setloading] = useState(true);
   useEffect(() => {
-    setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 1500);
+    }, 600);
   }, []);
   return (
     <div>
@@ -35,29 +32,30 @@ const Homebanner = () => {
         <div className="banner">
           <div className="banner_container">
             <div className="left_container">
-              <div className="what_is">What is Tailwind CSS UI bootstrap</div>
               <div className="what_is_ans">
                 <p>
                   This is one stop for frontend developers (sorry 🙏 fullstack
                   developers) who are designing and building their website with
-                  tailwind css
+                  tailwind css.
                 </p>
                 <p>
-                  Here you can find all UI components and layouts build
-                  exclusively in tailwind CSS
+                  Here you can find all UI components and layouts built
+                  exclusively in tailwind CSS.
                 </p>
                 <p>
                   Additional point, checkout components page - dont say this to
-                  your competitors
+                  your competitors 😆{" "}
+                  <Link href="/components">
+                    <span className="bg-sky-500 whitespace-nowrap text-white p-1 rounded-3xl px-4 hover:cursor-pointer hover:bg-sky-600">
+                      learn more ➡️
+                    </span>
+                  </Link>
                 </p>
               </div>
             </div>
             <div className="right_container">
               <img src="/home_banner.png" alt="banner" />
             </div>
-          </div>
-          <div className="social_buttons">
-            <SocialButtons />
           </div>
         </div>
       )}

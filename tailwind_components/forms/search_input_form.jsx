@@ -1,16 +1,18 @@
 import {stripIndent} from "react-codepen-prefill-embed";
 
 const searchInput = stripIndent`
-<div class="items-center justify-center flex h-screen w-screen">
-  <form class="mx-5 w-3/4">   
-    <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
-    <div class="relative">
-        <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-            <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-        </div>
-        <input type="search" id="default-search" class="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-full border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search..." required>
+<div class="flex h-screen w-screen items-center justify-center bg-sky-300">
+  <form>
+    <div class="text-blue relative focus-within:text-rose-400">
+      <span class="absolute inset-y-0 right-0 flex items-center pr-2">
+        <div class="h-4 border-l-2 border-solid border-amber-500 pr-1"></div>
+        <button class="focus:shadow-outline p-2 focus:outline-none">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="h-6 w-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </button>
+      </span>
+      <input class="text-red w-56 rounded-full bg-amber-500 py-3 pl-5 text-sm placeholder:text-black focus:bg-white focus:text-gray-900 focus:outline-none" placeholder="Search Here" autocomplete="off" />
     </div>
-</form>
+  </form>
 </div>
 `;
 

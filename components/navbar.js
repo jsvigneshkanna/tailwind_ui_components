@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   const displayMenu = () => {
     if (isMenuOpen) {
-      return "flex sm:hidden flex-col justify-center items-center ";
+      return "flex small-screen-header flex-col justify-center items-center gap-2 my-2";
     } else {
       return "hidden";
     }
@@ -29,31 +29,39 @@ const Navbar = () => {
           width={240}
           height={36}
           onClick={() => router.push("/")}
+          className=" cursor-pointer"
         />
         <div className="right_contents">
-          <div className="nav_links">
-            <Link href="/components">Components</Link>
-          </div>
-          <div className="nav_links">
-            <Link href="/">Documentation</Link>
-          </div>
-          <div className="nav_links">
-            <Link href="/">About Us</Link>
-          </div>
+          <Link href="/components">
+            <div role="button" className="nav_links">Components</div>
+          </Link>
+          <Link href="/documentation">
+            <div role="button" className="nav_links">Documentation</div>
+          </Link>
+          <Link href="/aboutUs">
+            <div role="button" className="nav_links">About Us</div>
+          </Link>
+          <Link href="/faqs">
+            <div role="button" className="nav_links">FAQs</div>
+          </Link>
         </div>
-        <div className="flex sm:hidden hamburger" onClick={showMenu}>
+        <div className="hamburger" onClick={showMenu}>
           <p>{isMenuOpen ? <AiOutlineClose /> : <MdMenu />}</p>
         </div>
       </nav>
+
       <div className={displayMenu()}>
         <div className="nav_links">
           <Link href="/components">Components</Link>
         </div>
         <div className="nav_links">
-          <Link href="/">Documentation</Link>
+          <Link href="/documentation">Documentation</Link>
         </div>
         <div className="nav_links">
-          <Link href="/">About Us</Link>
+          <Link href="/aboutUs">About Us</Link>
+        </div>
+        <div className="nav_links">
+          <Link href="/faqs">FAQs</Link>
         </div>
       </div>
     </div>

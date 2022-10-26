@@ -8,17 +8,15 @@
 }
 
 .codepen_container {
-  padding-bottom: 3vh;
+  padding-bottom: 5vh;
   width: 90%;
   margin: 0 auto;
 }
 
 .codepen_brief {
   text-align: center;
-  padding-bottom: 32px;
-  color: #0e6ddb;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .codepen_name {
@@ -45,5 +43,8 @@
     font-size: 18px;
     margin-left: 3%;
     width: 94%;
+  }
+  .codepen_brief {
+    font-size: 14px;
   }
 }

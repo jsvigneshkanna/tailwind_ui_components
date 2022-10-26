@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+footer {
+  font-family: Arial, sans-serif;
+}
+
+.legal_container {
+  font-family: Arial, sans-serif;
+}
+
+.documentation_page {
+  font-family: Arial, sans-serif;
+}
+
+.privacy_page {
+  font-family: Arial, sans-serif;
+}
