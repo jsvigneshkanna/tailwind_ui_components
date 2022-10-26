@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   const displayMenu = () => {
     if (isMenuOpen) {
-      return "flex md:hidden flex-col justify-center items-center ";
+      return "small-screen-header flex flex-col justify-center items-center ";
     } else {
       return "hidden";
     }
