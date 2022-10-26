@@ -20,7 +20,7 @@ const Footer = () => {
                 tailwind
               </span>
               <span className="text-white self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-blue-500 ml-2">
-                BOOTSRAP
+                BOOTSTRAP
               </span>
             </a>
           </div>
