@@ -10,6 +10,12 @@
  
 [![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/issues) [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/network/members) [![GitHub stars](https://img.shields.io/github/stars/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/stargazers)
 
+<a href="https://gitpod.io/#https://github.com/jsvigneshkanna/tailwind_ui_components.git">
+  <img
+    src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
+    alt="Contribute with Gitpod"
+  />
+</a>
 </div>
 
 ---
@@ -46,6 +52,7 @@ Buy us coffee or tea or even a book at [buymeacoffee 🍵](https://www.buymeacof
 
 # Getting started to contribute/use
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jsvigneshkanna/tailwind_ui_components.git)
  1. Fork the repository from [Repository](https://github.com/jsvigneshkanna/tailwind_ui_components). Just click at `fork` icon to create a fork-repository in your GitHub. In your local machine clone the forked repository with command and go to your repository
  `git clone https://github.com/<username>/tailwind_ui_components.git`
  `cd tailwind_ui_components`
