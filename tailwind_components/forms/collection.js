@@ -6,6 +6,7 @@ import fileInput from "./choose_file_input";
 import Radio_button from "./radio_button";
 import ToggleSwitch from "./toggle_switch";
 import HorizontalProgress from "./multi_form_horizontal_progress";
+import pricingForm from './pricing_form'
 
 const formCollections = [
   {componentName: "Range Slider", component: sliderInputForm},
@@ -19,6 +20,7 @@ const formCollections = [
     componentName: "Multi Step Horizontal Progress",
     component: HorizontalProgress,
   },
+  {componentName: "Pricing Form", component: pricingForm}
 ];
 
 export default formCollections;
