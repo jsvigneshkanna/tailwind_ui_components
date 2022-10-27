@@ -2,6 +2,12 @@
 
 # Hey 👋, Welcome to TailwindCSS UI Component Repo. This is the right place to play around with UI components build under TailwindCSS
 
+ [![Repo view count from Oct-27th 9PM](https://hits.dwyl.com/jsvigneshkanna/tailwind_ui_components.svg?style=flat-square)](http://hits.dwyl.com/jsvigneshkanna/tailwind_ui_components)
+
+ ## Repo's Traffic since October 14th 2022🚀🚀🚀
+ ![image](https://user-images.githubusercontent.com/42484705/198340953-94338bdb-0313-40ca-bfae-e4701f79e048.png)
+
+ 
 [![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/issues) [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/network/members) [![GitHub stars](https://img.shields.io/github/stars/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/stargazers)
 
 </div>
