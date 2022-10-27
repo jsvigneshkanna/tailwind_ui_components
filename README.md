@@ -2,6 +2,10 @@
 
 # Hey 👋, Welcome to TailwindCSS UI Component Repo. This is the right place to play around with UI components build under TailwindCSS
 
+ [![HitCount](https://hits.dwyl.com/jsvigneshkanna/tailwind_ui_components.svg?style=flat-square)](http://hits.dwyl.com/jsvigneshkanna/tailwind_ui_components)
+   [![HitCount](https://hits.dwyl.com/jsvigneshkanna/tailwind_ui_components.svg?style=flat-square&show=unique)](http://hits.dwyl.com/jsvigneshkanna/tailwind_ui_components)
+
+ 
 [![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/issues) [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/network/members) [![GitHub stars](https://img.shields.io/github/stars/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/stargazers)
 
 </div>
