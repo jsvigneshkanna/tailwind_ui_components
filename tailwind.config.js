@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        md9: "900px",
+        // => @media (min-width: 900px) { ... }
+      },
       colors: {
         "alert-text": "#d4975c",
       },
