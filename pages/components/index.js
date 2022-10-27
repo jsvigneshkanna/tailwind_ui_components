@@ -170,6 +170,18 @@ const Components = () => {
               to check inside 😎
             </p>
           </a>
+          <a className="component_card" href="/components/file_uploader">
+            <p className="in_dev_ribbon">Simple yet difficult 😶‍🌫️</p>
+            <img
+              src="/file_uploader_component.png"
+              alt="file_uploader_component"
+              className="container_card_img"
+            />
+            <h2 className="component_name">File Uploader Components</h2>
+            <p className="component_brief">
+              File Uploader components
+            </p>
+          </a>
         </div>
       </div>
       <Footer />
