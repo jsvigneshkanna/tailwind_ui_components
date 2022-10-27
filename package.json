@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@octokit/rest": "^19.0.5",
+    "classnames": "^2.3.2",
     "install-peerdeps": "^3.0.3",
     "next": "^12.3.1",
     "nextjs": "0.0.3",
