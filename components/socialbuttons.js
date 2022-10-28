@@ -3,7 +3,7 @@ import Link from "next/link";
 const SocialButtons = () => {
   return (
     <div className="flex flex-row w-100 items-center justify-center md:flex-row bg-gradient-to-tr from-[#000855] to-[#690101] py-3 md:py-6">
-      <div className="hidden md9:flex flex-row items-center justify-center">
+      <div className="md9:flex flex-row items-center justify-center">
         <div className="group m-3 inline-block h-16 w-16 py-0 hover:w-52 transition-all ease-out bg-white rounded-full float-left overflow-hidden cursor-pointer">
           <div className="inline-block h-16 w-16 text-center bg-zinc-900 transition-all ease-out box-border rounded-full leading-[65px] group-hover:bg-[#4267B2]">
             <i className="fab fa-facebook-f text-2xl leading-[60px] transition-all ease-out text-white"></i>
@@ -22,7 +22,7 @@ const SocialButtons = () => {
         </div>
       </div>
       <div className="flex flex-row items-center justify-center">
-        <div className="hidden md9:block group m-3 h-16 w-16 py-0  hover:w-52 transition-all ease-out bg-white rounded-full float-left overflow-hidden cursor-pointer">
+        <div className="md9:block group m-3 h-16 w-16 py-0  hover:w-52 transition-all ease-out bg-white rounded-full float-left overflow-hidden cursor-pointer">
           <div className="inline-block h-16 w-16 text-center bg-zinc-900 transition-all ease-out box-border rounded-full leading-[65px] group-hover:bg-[#E1306C]">
             <i className="fab fa-instagram text-2xl leading-[60px] transition-all ease-out text-white"></i>
           </div>

@@ -3,14 +3,16 @@
   /* min-height: 80vh; */
   width: 100%;
   font-family: Arial, sans-serif;
-  padding-top: 26vh;
+  padding-top: 22vh;
   padding-bottom: 10vh;
+}
+.bannerfaq{
+  padding-top: 14vh !important;
 }
 
 .banner_container {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10rem;
@@ -44,6 +46,7 @@
 
 .right_container {
   width: 100%;
+  text-align: center;
 }
 
 .right_container img {
@@ -57,13 +60,13 @@
 @media (max-width: 900px) {
   .banner {
     font-family: "poppins";
-    padding-top: 16vh;
-    padding-bottom: 8vh;
+    padding-top: 10vh !important;
+    padding-bottom: 5vh;
   }
   .banner_container {
     flex-direction: column;
     gap: 3rem;
-    width: 100%;
+    width: 95%;
     padding: 16px;
   }
   .what_is {

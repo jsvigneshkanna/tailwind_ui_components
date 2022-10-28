@@ -48,7 +48,7 @@ const AboutUs = () => {
           />
         </div>
       ) : (
-        <div className="banner">
+        <div className="banner bannerfaq">
           <div>
             <div className="flex  flex-col justify-center items-center flex-wrap">
               <div className="my-5 mx-3 p-6  md:w-4/5 md:mx-0 flex flex-col justify-center items-center border-white border-2 rounded-lg bg-sky-300">
