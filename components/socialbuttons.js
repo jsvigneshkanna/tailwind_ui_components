@@ -46,7 +46,7 @@ const SocialButtons = () => {
         </div>
       </div>
       <div className="flex flex-row items-center justify-center">
-        <div className="hidden md9:block group m-3 h-16 w-16 py-0 hover:w-52 transition-all ease-out bg-white rounded-full float-left overflow-hidden cursor-pointer">
+        <div className="md9:block group m-3 h-16 w-16 py-0 hover:w-52 transition-all ease-out bg-white rounded-full float-left overflow-hidden cursor-pointer">
           <div className="inline-block h-16 w-16 text-center bg-zinc-900 transition-all ease-out box-border rounded-full leading-[65px] group-hover:bg-[#ff0000]">
             <i className="fab fa-youtube text-2xl leading-[60px] transition-all ease-out text-white"></i>
           </div>
