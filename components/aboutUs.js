@@ -2,6 +2,7 @@
 import {useState, useEffect} from "react";
 import {BallTriangle} from "react-loader-spinner";
 import {SiBuymeacoffee} from "react-icons/si";
+import GitStats from "../components/gitstats";
 import Link from "next/link";
 
 const AboutUs = () => {
@@ -119,6 +120,7 @@ const AboutUs = () => {
                     <p className=" mt-8 mb-8 text-xl text-white underline underline-offset-4">
                       Our Contributers 🥂
                     </p>
+                    <GitStats className="!top-0 !left-0 !relative !mb-10 max-w-md9: !flex" />
                     <div
                       id="contributors"
                       className="overflow-auto whitespace-nowrap w-auto flex flex-wrap justify-evenly gap-1 md:gap-8"></div>

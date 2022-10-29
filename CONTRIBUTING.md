@@ -13,6 +13,7 @@ If you spot a problem, please [search if an issue already exists](https://github
 
 If it doesn't, you can open a new issue using the [new issue form](https://github.com/jsvigneshkanna/tailwind_ui_components/issues/new/choose) specifying if it's about a bug, a feature, documentation or anything else.
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jsvigneshkanna/tailwind_ui_components.git)
 
 ## 2. Fork this repository
 

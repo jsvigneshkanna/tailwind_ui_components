@@ -2,20 +2,15 @@
   width: 100%;
   background: linear-gradient(220deg, #1f002d 0%, #00002d 100%);
   height: max-content;
-  padding-top: 18vh;
+  padding-top: 16vh;
   padding-bottom: 8vh;
   color: white;
   font-family: Arial, sans-serif;
 }
 
 .component_container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 6vw;
-  width: 75%;
+  justify-content: space-evenly;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -97,12 +92,13 @@
 }
 @media (max-width: 900px) {
   .component_page {
-    padding-top: 16vh;
+    padding-top: 10vh;
   }
 
   .component_card {
     margin-bottom: 54px;
     box-shadow: 2px 3px 10px 0px rgb(136, 149, 224);
+     /* width: 280px; */
   }
   .new_ribbon {
     position: absolute;

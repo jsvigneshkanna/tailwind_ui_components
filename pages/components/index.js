@@ -16,18 +16,18 @@ const Components = () => {
       <Navbar />
 
       <div className="component_page font-poppins">
-        <div className="text-center md:text-xl text-base mb-20 text-blue-700 bg-sky-200 font-semibold flex md:mx-48 mx-4 justify-center items-center py-4 rounded-3xl flex-col md:flex-row">
+        <div className="text-blue-700 bg-sky-200 text-base mb-16 font-semibold text-center justify-center items-center flex flex-col mx-10 md9:mx-36 lg:!mx-48 my-4 rounded-2xl p-4 md:flex-row ">
           👩‍💻 Built for developers by developers 🧑‍💻 like to contribute?
-          <span className="ml-6 bg-rose-600 text-white px-3 rounded-3xl mt-4 md:mt-0">
+          <span className="ml-6 bg-rose-600 text-white px-3 rounded-2xl mt-4 md:mt-0">
             <a
               href="https://github.com/jsvigneshkanna/tailwind_ui_components"
               target="_blank"
               rel="noreferrer">
-              check here 👉
+              Check here 👉
             </a>
           </span>
         </div>
-        <div className="component_container">
+        <div className="component_container grid xl:grid-cols-3 md:grid-cols-2 md9:gap-y-20 justify-items-center md:gap-x-8 md9:gap-x-0">
           <a className="component_card" href="/components/buttons">
             <p className="new_ribbon">New Component ⚡</p>
             <img
