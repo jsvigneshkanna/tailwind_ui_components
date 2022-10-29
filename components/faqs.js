@@ -85,7 +85,7 @@ const FAQs = () => {
 
   return (
     <div>
-      <div className="banner">
+      <div className="banner bannerfaq">
         <div class="pb-6 text-white">
           <h1 class="p-3 text-center font-semibold text-lg md:text-2xl underline underline-offset-8">
             Frequently Asked Questions

@@ -54,6 +54,7 @@ nav {
 @media (max-width: 899px) {
   .nav_links {
     padding: 12px;
+    font-weight: normal;
     /* margin-bottom: 24px; */
   }
   .nav_links:nth-child(1) {
@@ -69,7 +70,18 @@ nav {
     flex-direction: row;
   }
 }
-
+@media (max-width: 1024px) {
+  .nav_links {
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 960px) {
+  .nav_links {
+    padding: 12px;
+    font-size: 13px;
+  }
+}
 @media (max-width: 899px) {
   .nav_container nav div {
     flex-direction: column;
