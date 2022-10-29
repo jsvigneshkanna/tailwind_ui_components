@@ -30,7 +30,7 @@ const Homebanner = () => {
         </div>
       ) : (
         <div className="banner">
-          <div className="banner_container flex">
+          <div className="banner_container">
             <div className="left_container">
               <div className="what_is_ans">
                 <p>
