@@ -19,7 +19,7 @@ const AboutUs = () => {
             for (var xx = 0; xx < res.length; xx++) {
               document.getElementById(
                 "contributors",
-              ).innerHTML += ` <a href="${res[xx].url}" class=" overflow-hidden flex flex-col justify-evenly w-28 m-4"><img class="inline rounded-full"
+              ).innerHTML += ` <a href="https://github.com/${res[xx].login}" target="_blank" rel="noreferrer" class=" overflow-hidden flex flex-col justify-evenly w-28 m-4"><img class="inline rounded-full"
                                                               src="${res[xx].avatar_url}"
                                                               alt=""/><span
                                                               class="text-white"><div class="w-full text-center">${res[xx].login}</div></span></a>`;
@@ -119,6 +119,13 @@ const AboutUs = () => {
                   <div className=" my-5 mx-3 p-6 flex flex-col justify-center items-center md:w-4/5 md:mx-0p-6 px-5 overflow-auto border-blue-700 border-2 rounded-lg">
                     <p className=" mt-8 mb-8 text-xl text-white underline underline-offset-4">
                       Our Contributers 🥂
+                    </p>
+                    <p className="w-full text-center text-white  font-semibold flex flex-col md:flex-row justify-center items-center pb-8">
+                      We currently have around 55+ open source contributors who
+                      have contributed in codebase through different ways from
+                      correcting the UI components to adding this whole new link
+                      ⚡. Check our contributors in next page, and you too can
+                      become a part of our cool 🥸 community.
                     </p>
                     <GitStats className="!top-0 !left-0 !relative !mb-10 max-w-md9: !flex" />
                     <div
