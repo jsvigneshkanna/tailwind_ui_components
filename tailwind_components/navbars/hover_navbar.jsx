@@ -86,7 +86,14 @@ const hover_navbar = stripIndent`
 <body bgcolor="black">
     <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-black fixed w-full z-20 top-0 left-0">
         <div class="container flex flex-wrap md:justify-center items-center mx-auto justify-end">
-            <div class="flex items-center w-screen justify-end">
+            <div class="flex items-center w-screen justify-between">
+                <div class="flex">
+                    <span class="md:hidden text-gray-400 text-center">Click On Hamburger Icon</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 md:hidden text-gray-400 ml-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                    </svg>
+                </div>
                 <button type="button" id="hamburger"
                     class="relative w-10 h-10 md:hidden">
                     <div role="hidden" id="line"
