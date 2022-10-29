@@ -11,11 +11,6 @@ const Document = () => {
         <h3 className="text-center pb-8 font-bold text-xl text-red-900 underline underline-offset-4">
           1. Feature video 📺
         </h3>
-        <video
-          className="w-auto rounded-3xl h-auto border-2 border-rose-500 shadow-xl shadow-blue-300"
-          controls>
-          <source src="/tailwind_bootstrap_docs.mkv" type="video/mp4"></source>
-        </video>
       </div>
 
       <div className="py-8 flex flex-col justify-center items-start">
