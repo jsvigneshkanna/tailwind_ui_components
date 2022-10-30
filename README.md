@@ -1,5 +1,7 @@
 <div align ="center">
-<img src="https://tailwindcss.com/_next/static/media/tailwindui-small@75.8bb955b2.jpg"/>
+
+<img src="https://raw.githubusercontent.com/jsvigneshkanna/tailwind_ui_components/master/public/logo.svg"  />
+
 
 # TailwindCSS UI Component 
 
