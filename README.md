@@ -1,21 +1,19 @@
 <div align ="center">
+<img src="https://tailwindcss.com/_next/static/media/tailwindui-small@75.8bb955b2.jpg"/>
 
-# Hey 👋, Welcome to TailwindCSS UI Component Repo. This is the right place to play around with UI components build under TailwindCSS
+# TailwindCSS UI Component 
 
- [![Repo view count from Oct-27th 9PM](https://hits.dwyl.com/jsvigneshkanna/tailwind_ui_components.svg?style=flat-square)](http://hits.dwyl.com/jsvigneshkanna/tailwind_ui_components)
+This is the right place to play around with UI components build under TailwindCSS
+
+ [![Repo view count from Oct-27th 9PM](https://hits.dwyl.com/jsvigneshkanna/tailwind_ui_components.svg)](http://hits.dwyl.com/jsvigneshkanna/tailwind_ui_components)
 
  ## Repo's Traffic since October 14th 2022🚀🚀🚀
  ![image](https://user-images.githubusercontent.com/42484705/198340953-94338bdb-0313-40ca-bfae-e4701f79e048.png)
 
  
-[![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/issues) [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/network/members) [![GitHub stars](https://img.shields.io/github/stars/jsvigneshkanna/tailwind_ui_components?style=for-the-badge)](https://github.com/jsvigneshkanna/tailwind_ui_components/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/tailwind_ui_components?logo=github)](https://github.com/jsvigneshkanna/tailwind_ui_components/issues) [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/tailwind_ui_components?logo=github)](https://github.com/jsvigneshkanna/tailwind_ui_components/network/members) [![GitHub stars](https://img.shields.io/github/stars/jsvigneshkanna/tailwind_ui_components?logo=github)](https://github.com/jsvigneshkanna/tailwind_ui_components/stargazers)
 
-<a href="https://gitpod.io/#https://github.com/jsvigneshkanna/tailwind_ui_components.git">
-  <img
-    src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
-    alt="Contribute with Gitpod"
-  />
-</a>
+
 </div>
 
 ---
@@ -48,27 +46,48 @@ Please follow the [contributing guide](./CONTRIBUTING.md) for this repo. Anythin
 # Like to contribute us by money?
 
 This contribution is not forced but welcomed, as this will help us run this software for long time
-Buy us coffee or tea or even a book at [buymeacoffee 🍵](https://www.buymeacoffee.com/jsvigneshkanna?new=1)
+<p align="center">
+<a href = "https://www.buymeacoffee.com/jsvigneshkanna?new=1"><img src ="https://cdn.buymeacoffee.com/buttons/default-red.png" height="30"/></a>
+</p>
+
 
 # Getting started to contribute/use
+<div align="center">
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jsvigneshkanna/tailwind_ui_components.git)
+   [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jsvigneshkanna/tailwind_ui_components.git)
+
+<b>OR</b>
+</div>
+
+
  1. Fork the repository from [Repository](https://github.com/jsvigneshkanna/tailwind_ui_components). Just click at `fork` icon to create a fork-repository in your GitHub. In your local machine clone the forked repository with command and go to your repository
- `git clone https://github.com/<username>/tailwind_ui_components.git`
- `cd tailwind_ui_components`
+    ``` sh
+     git clone https://github.com/<username>/tailwind_ui_components.git
+     cd tailwind_ui_components
+    ```
  2. After you choose the issue create new branch. (Use issue specifying either documentation, bug or feature than issue number and what should be done) 
- `git checkout -b <branch_name> `
+    ```sh
+    git checkout -b <branch_name> 
+    ```
  3. Install dependencies
- `npm install`
+    ```
+    npm install
+    ```
  4. Run code locally
- `npm run dev`
+    ```
+    npm run dev
+    ```
  5. Go to `localhost:3000`
- 6. Make the changes in code and test these. (nextJS and tailwind/plain CSS)
+ 6. Make the changes in code and test these. (NextJS and tailwind/plain CSS)
  7. After changes are ready, commit the changes:
- `git add <changed_file> `
- `git commit -m "commit message"`
+    ``` sh
+    git add <changed_file> 
+    git commit -m "commit message"
+    ```
  8. Push the changes to origin
- `git push origin <branch_name>`
+    ``` sh
+    git push origin <branch_name>
+    ```
  9. After that create new Pull Request in your GitHub account. (It should appear after commits were pushed)
 
 # Contributors 🎉
@@ -81,5 +100,5 @@ These people are sole backbone for this software. Want to get place in below hal
 
 <br>
 <div align="center">
-Show some ❤️ by starring this awesome repository!
+   Show some ❤️ by starring this awesome repository!
 </div>
