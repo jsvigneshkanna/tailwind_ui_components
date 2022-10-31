@@ -17,3 +17,25 @@ footer {
 .privacy_page {
   font-family: Arial, sans-serif;
 }
+
+/* style scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000057;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    90deg,
+    rgb(238, 113, 40) 0%,
+    rgb(226, 10, 100) 100%
+  );
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(rgb(238, 113, 3) 0%, rgb(226, 10, 96) 100%);
+}
