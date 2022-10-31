@@ -76,7 +76,7 @@ const Footer = () => {
         <hr className="my-6 sm:mx-auto border-gray-400  lg:my-4" />
         <div className="sm:flex sm:items-center sm:justify-between md:px-40 text-center">
           <span className="text-sm text-white sm:text-center">
-            © 2022{" "}
+            {new Date().getFullYear() +" " }
             <a
               href="https://github.com/jsvigneshkanna"
               className="hover:underline text-orange-300">
