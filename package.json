@@ -9,8 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@octokit/rest": "^19.0.5",
     "classnames": "^2.3.2",
+    "font-awesome": "^4.7.0",
     "install-peerdeps": "^3.0.3",
     "next": "^12.3.1",
     "nextjs": "0.0.3",

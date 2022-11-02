@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import {useEffect} from "react";
-import $ from "jquery";
-import Link from "next/link";
-import mitt from "next/dist/shared/lib/mitt";
+import "font-awesome/css/font-awesome.min.css";
 
 const FAQs = () => {
   useEffect(() => {
@@ -43,7 +41,7 @@ const FAQs = () => {
           <div class="wrapper bg-white mb-5 py-4 px-8 rounded-md shadow-wrap">
             <button class="toggle w-full text-xl bg-transparent flex justify-between items-center font-semibold border-none outline-none cursor-pointer py-4 px-0 focus:outline-none text-amber-500 ">
                 ${data[q].qes}
-                <i class="fas fa-plus icon p-2"></i>
+                <i class="fa fa-plus icon p-2"></i>
             </button>
             <div class="content relative md:text-xl font-medium text-blue-800 text-justify max-h-0 leading-7 md:leading-8 overflow-hidden transition-mh ease-in-out duration-300 before:content-[''] before:absolute before:h-90 before:w-2 before:top-1/2 before:left-0 before:-translate-y-1/2 before:bg-faq1 bg-sky-50">
                 <p class="p-4">${data[q].ans}</p>
@@ -90,13 +88,13 @@ const FAQs = () => {
   return (
     <div>
       <div className="banner bannerfaq">
-        <div class="pb-6 text-white">
-          <h1 class="px-3 mt-8 text-center font-semibold text-lg md:text-2xl underline underline-offset-8 font-sans">
+        <div className="pb-6 text-white">
+          <h1 className="px-3 mt-8 text-center font-semibold text-lg md:text-2xl underline underline-offset-8 font-sans">
             Frequently Asked Questions ?
           </h1>
           <div
             id="faqs"
-            class="text-black m-auto mx-6 mt-9 md9:mx-20 xl:!mx-36 lg:!mx-32 px-3 md:px-8 py-10 max-w-96 font-sans"></div>
+            className="text-black m-auto mx-6 mt-9 md9:mx-20 xl:!mx-36 lg:!mx-32 px-3 md:px-8 py-10 max-w-96 font-sans"></div>
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import Navbar from "../components/navbar";
 import Homebanner from "../components/homebanner";
 import Footer from "../components/footer";
@@ -12,10 +11,6 @@ export default function Home() {
       <Head>
         <title>Tailwind Bootstrap</title>
         <link rel="icon" href="/favicon/favicon.png" type="image/png" />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        />
         <meta name="title" content="Tailwind Bootstrap" />
         <meta name="description" content="TailwindCSS ui component bootstrap" />
 
@@ -29,7 +24,6 @@ export default function Home() {
           property="og:description"
           content="TailwindCSS ui component bootstrap"
         />
-
         <meta
           property="twitter:url"
           content="https://tailwindcsscomponents.vercel.app/"
