@@ -24,7 +24,7 @@ const FAQs = () => {
         },
         q5: {
           qes: "Is there any pricing or subscription ?",
-          ans: 'Nooooo 🙅, It is free of cost. We will atmost thrive to keep this website open sourced and free of cost to users. If you like our product very much and wish to contribute us some money which we use to enhance further, you can reach us at <a href="https://www.buymeacoffee.com/jsvigneshkanna" target="_blank" rel="noreferrer" class="text-fuchsia-500 underline">Here.</a>',
+          ans: 'Nooooo 🙅, It is free of cost. We will atmost thrive to keep this website open sourced and free of cost to users. If you like our product very much and wish to contribute us some money which we use to enhance further, you can reach us at <a href="https://www.buymeacoffee.com/jsvigneshkanna" target="_blank" rel="noreferrer" class="text-[#ed670b]">Here.</a>',
         },
         q6: {
           qes: "How can we use these UI components and where can we find documents ?",
@@ -32,18 +32,18 @@ const FAQs = () => {
         },
         q7: {
           qes: "I would like to contribute to this website, how can I proceed ?",
-          ans: 'Hurray 🕺💃, You can contribute from <a href="https://github.com/jsvigneshkanna/tailwind_ui_components" class="text-fuchsia-500 underline">Here.</a> We are so happy, that you checked our product and like to contribute !!!',
+          ans: 'Hurray 🕺💃, You can contribute from <a href="https://github.com/jsvigneshkanna/tailwind_ui_components" class="text-[#ed670b]">Here.</a> We are so happy, that you checked our product and like to contribute !!!',
         },
       };
       if (document.getElementById("faqs").innerHTML == "") {
         for (const q in data) {
           document.getElementById("faqs").innerHTML += `
           <div class="wrapper bg-slate-100 mb-5 py-4 px-8 rounded-md shadow-wrap">
-            <button class="toggle w-full text-xl bg-transparent flex justify-between items-center font-semibold border-none outline-none cursor-pointer py-4 px-0 focus:outline-none text-[#ed670b] transition-all duration-500" open="false">
+            <button class="toggle w-full md:text-2xl lineh bg-transparent flex justify-between items-center font-semibold border-none outline-none cursor-pointer py-4 px-0 focus:outline-none text-[#ed670b] transition-all duration-500 text-base leading-7" open="false">
                 ${data[q].qes}
                 <i class="fa fa-plus icon p-2 transition-all duration-500 ease-in-out"></i>
             </button>
-            <div class="content relative md:text-xl font-medium text-[#310635] text-justify max-h-0 leading-7 md:leading-8 overflow-hidden transition-mh ease-in duration-500 before:content-[''] before:absolute before:h-90 before:w-2 before:top-1/2 before:left-0 before:-translate-y-1/2 before:bg-[#ed670b]">
+            <div class="content relative md:text-xl font-medium text-[#310635] text-justify max-h-0 leading-6 md:leading-8 overflow-hidden transition-mh ease-in duration-500 before:content-[''] before:absolute before:h-90 before:w-2 before:top-1/2 before:left-0 before:-translate-y-1/2 before:bg-[#ed670b] text-sm">
                 <p class="p-4">${data[q].ans}</p>
             </div>
         </div>
